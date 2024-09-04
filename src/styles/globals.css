@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Mono:wght@0,300;0,400;0,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inter:wght@0,400;0,500;0,600;0,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+}
+
+/* Todo: adding default color */

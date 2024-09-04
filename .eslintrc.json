@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true
+  },
+  "extends": ["next", "next/core-web-vitals", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+
+  "rules": {
+    "@next/next/no-img-element": 0,
+    "react/no-unescaped-entities": 0,
+    "tailwindcss/classnames-order": 0,
+    "react/no-children-prop": "off"
+  }
+}
