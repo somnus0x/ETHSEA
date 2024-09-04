@@ -7,19 +7,29 @@ const Header: React.FC = () => {
       <nav className="max-w-3xl mx-auto h-full">
         <ul className="flex justify-between items-center">
           <li>
-            <Link href="#about" className="text-sm font-medium">ABOUT</Link>
+            <Link href="#about" className="text-sm font-medium">
+              ABOUT
+            </Link>
           </li>
           <li>
-            <Link href="#intersections" className="text-sm font-medium">INTERSECTIONS</Link>
+            <Link href="#intersections" className="text-sm font-medium">
+              INTERSECTIONS
+            </Link>
           </li>
           <li>
-            <Link href="#ticket-info" className="text-sm font-medium">TICKET INFO</Link>
+            <Link href="#ticket-info" className="text-sm font-medium">
+              TICKET INFO
+            </Link>
           </li>
           <li>
-            <Link href="#speakers" className="text-sm font-medium">SPEAKERS</Link>
+            <Link href="#speakers" className="text-sm font-medium">
+              SPEAKERS
+            </Link>
           </li>
           <li>
-            <Link href="#faq" className="text-sm font-medium">F.A.Q</Link>
+            <Link href="#faq" className="text-sm font-medium">
+              F.A.Q
+            </Link>
           </li>
         </ul>
       </nav>
