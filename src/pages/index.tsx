@@ -16,9 +16,9 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
-      <CallToAction />
       <Highlights />
       <Speakers />
+      <CallToAction />
       <FAQ />
       <Footer />
     </div>
