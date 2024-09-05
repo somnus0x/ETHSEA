@@ -4,6 +4,7 @@ import { useMounted } from '@/hooks/useMounted'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
+import CallToAction from '@/components/CallToAction'
 import Highlights from '@/components/Highlights'
 import Speakers from '@/components/Speaker'
 import FAQ from '@/components/FAQ'
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
+      <CallToAction />
       <Highlights />
       <Speakers />
       <FAQ />

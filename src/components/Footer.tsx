@@ -20,14 +20,6 @@ const Footer: React.FC = () => {
             ))}
           </div>
         </div>
-        <div>
-          <h3 className="font-bold mb-2">SPONSORED BY:</h3>
-          <div className="flex space-x-4">
-            {[1, 2, 3].map((item) => (
-              <div key={item} className="w-16 h-8 bg-gray-300"></div>
-            ))}
-          </div>
-        </div>
       </div>
     </footer>
   )
