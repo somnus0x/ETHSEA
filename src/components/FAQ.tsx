@@ -2,24 +2,14 @@ import React from 'react'
 
 const faqs = [
   {
-    id: "talks",
-    question: "Talks",
-    answer: "Keynote speeches on Ethereum and blockchain technology"
+    id: "refunds-and-transfers",
+    question: "What are the policies towards refunds & transfers?",
+    answer: "All tickets are final and non-refundable. In our effort to prevent scalping and ensure equal opportunity for all interested community members to be able to purchase tickets, we will only allow ticket transfers on a case-by-case basis upon written request to support@ethsea.org."
   },
   {
-    id: "workshops",
-    question: "Workshops",
-    answer: "Interactive workshops and hands-on sessions on building Ethereum-based applications"
-  },
-  {
-    id: "discussions",
-    question: "Discussions",
-    answer: "Panel discussions on topics such as security, scalability, and adoption"
-  },
-  {
-    id: "exhibits",
-    question: "Exhibits",
-    answer: "Exhibition area showcasing innovative Ethereum-based solutions"
+    id: "food",
+    question: "Will there be food at the venue?",
+    answer: "Yes, all tickets include access to lunch, and all-day snacks."
   },
 ]
 
