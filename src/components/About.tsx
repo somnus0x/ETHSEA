@@ -37,10 +37,15 @@ const About: React.FC = () => {
               Ethereum SEA Day brings together the best minds in the industry to
               share their insights, expertise, and experiences on all things
               Ethereum. Enjoy a full day of talks, workshops, and panels focused on
-              the latest developments in Ethereum and blockchain technology.
+              the latest developments in Eths ereum and blockchain technology.
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-between items-center">
+        <img src="/images/left.svg" alt="about" />
+        <img src="/images/center.svg" alt="about" />
+        <img src="/images/right.svg" alt="about" />
       </div>
     </section>
   )

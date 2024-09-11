@@ -6,9 +6,11 @@ import Hero from '@/components/Hero'
 import About from '@/components/About'
 import PreFooter from '@/components/PreFooter'
 import Highlights from '@/components/Highlights'
+import TicketInfo from '@/components/TicketInfo'
 import Speakers from '@/components/Speaker'
 import FAQ from '@/components/FAQ'
 import Footer from '@/components/Footer'
+import WhatToExpect from '@/components/WhatToExpect'
 
 export default function Home() {
   return (
@@ -18,10 +20,12 @@ export default function Home() {
       </div>
       <Hero />
       <About />
-      <Highlights />
-      <Speakers />
+      <TicketInfo />
+      {/* <Highlights /> */}
+      <WhatToExpect />
+      {/* <Speakers />
       <PreFooter />
-      <FAQ />
+      <FAQ /> */}
       <Footer />
     </div>
   )
