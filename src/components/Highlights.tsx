@@ -2,24 +2,26 @@ import React, { useState } from 'react'
 
 const highlights = [
   {
-    id: "talks",
-    title: "Talks",
-    description: "Keynote speeches on Ethereum and blockchain technology"
+    id: 'talks',
+    title: 'Talks',
+    description: 'Keynote speeches on Ethereum and blockchain technology',
   },
   {
-    id: "workshops",
-    title: "Workshops",
-    description: "Interactive workshops and hands-on sessions on building Ethereum-based applications"
+    id: 'workshops',
+    title: 'Workshops',
+    description:
+      'Interactive workshops and hands-on sessions on building Ethereum-based applications',
   },
   {
-    id: "discussions",
-    title: "Discussions",
-    description: "Panel discussions on topics such as security, scalability, and adoption"
+    id: 'discussions',
+    title: 'Discussions',
+    description:
+      'Panel discussions on topics such as security, scalability, and adoption',
   },
   {
-    id: "exhibits",
-    title: "Exhibits",
-    description: "Exhibition area showcasing innovative Ethereum-based solutions"
+    id: 'exhibits',
+    title: 'Exhibits',
+    description: 'Exhibition area showcasing innovative Ethereum-based solutions',
   },
 ]
 
