@@ -2,17 +2,45 @@ import React from 'react'
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-16">
-      <div className="container mx-auto px-4">
-        <p>Join us as we celebrate the vibrant and innovative world of Ethereum in Southeast Asia! Ethereum SEA Day is a unique gathering designed to onboard newcomers, connect leaders, and showcase inspiring initiatives within the Ethereum ecosystem in Southeast Asia.</p>
-        <p>Ethereum SEA Day brings together the best minds in the industry to share their insights, expertise, and experiences on all things Ethereum. Enjoy a full day of talks, workshops, and panels focused on the latest developments in Ethereum and blockchain technology.</p>
-        <p>Don't miss this opportunity to:</p>
-        <ul>
-          <li>Learn about the latest Ethereum developments and applications</li>
-          <li>Connect with fellow attendees in shaping the future of Ethereum in SEA</li>
-          <li>Explore cutting-edge technologies and innovations</li>
-          <li>And more!</li>
-        </ul>
+    <section id="about" className="">
+      <div className="container mx-auto px-4 py-4">
+        <div className="flex justify-center items-center">
+          <div>
+            <img width={123} height={144} src="/images/adornment.svg" alt="about" />
+            <div className="text-5xl mt-6 text-white font-semibold border-b-4 border-[#2CC6BA]">
+              Intro
+            </div>
+          </div>
+        </div>
+        <div className="text-center mt-10">
+          <div className="text-white text-3xl ">
+            {' '}
+            Ethereum SEA Day is a unique gathering designed to
+          </div>
+          <div className="text-[#F8D113] text-5xl font-semibold mt-8 mb-4">
+            {' '}
+            Onboard Newcomers
+          </div>
+          <div className="text-[#2CC6BA] text-5xl font-semibold mb-4">
+            {' '}
+            Connect Leaders
+          </div>
+          <div className="text-primary text-5xl font-semibold mb-4">
+            {' '}
+            Showcase SEA Initiatives
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="w-[979px] text-white text-3xl font-semibold mb-4">
+              {' '}
+              within the Ethereum ecosystem in Southeast Asia. <br />
+              <br />
+              Ethereum SEA Day brings together the best minds in the industry to
+              share their insights, expertise, and experiences on all things
+              Ethereum. Enjoy a full day of talks, workshops, and panels focused on
+              the latest developments in Ethereum and blockchain technology.
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   )

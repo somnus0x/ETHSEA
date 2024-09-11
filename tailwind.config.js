@@ -6,8 +6,7 @@ module.exports = {
   // prefix: undefined,
   theme: {
     fontFamily: {
-      dmmono: '"DM Mono"',
-      inter: '"Inter"',
+      kodchasan: '"Kodchasan"',
     },
     container: {
       padding: {
@@ -18,6 +17,21 @@ module.exports = {
         lg: '16px',
         xl: '16px',
         '2xl': '16px',
+      },
+    },
+    colors: {
+      primary: {
+        DEFAULT: '#DE40BA',
+      },
+      secondary: {
+        DEFAULT: '#2CC6BA',
+      },
+      background: {
+        DEFAULT: '#2C40BA',
+        secondary: '#FFDDC9',
+      },
+      white: {
+        DEFAULT: '#FFFFFF',
       },
     },
   },
