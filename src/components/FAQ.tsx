@@ -2,6 +2,11 @@ import React from 'react'
 
 const faqs = [
   {
+    id: "devcon",
+    question: "What is the difference between Ethereum SEA Day and Devcon SEA?",
+    answer: "While both Ethereum SEA Day and Devcon SEA are happening in the same venue, Ethereum SEA Day is a 1-day event specifically designed for the general public to learn about Ethereum and decentralization, all in one single day. Devcon SEA, on the otherhand, is an intensive 4-day event covering both the breadth and depth of the latest developments in Ethereum and its ecosystem."
+  },
+  {
     id: "refunds-and-transfers",
     question: "What are the policies towards refunds & transfers?",
     answer: "All tickets are final and non-refundable. In our effort to prevent scalping and ensure equal opportunity for all interested community members to be able to purchase tickets, we will only allow ticket transfers on a case-by-case basis upon written request to support@ethsea.org."
