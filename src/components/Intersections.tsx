@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const highlights = [
+const intersections = [
   {
     id: 'talks',
     title: 'Talks',
@@ -25,13 +25,13 @@ const highlights = [
   },
 ]
 
-const Highlights: React.FC = () => {
+const Intersections: React.FC = () => {
   return (
-    <section id="highlights" className="py-16">
+    <section id="intersections" className="py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-12">INTERSECTIONS</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {highlights.map((item) => (
+          {intersections.map((item) => (
             <div key={item.title} className="flex flex-col items-center">
               <div className="border border-gray-300 aspect-square w-full flex items-center justify-center mb-4">
                 <span className="text-black font-semibold">{item.title}</span>
@@ -45,4 +45,4 @@ const Highlights: React.FC = () => {
     </section>
   )
 }
-export default Highlights
+export default Intersections

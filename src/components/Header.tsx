@@ -12,8 +12,8 @@ const Header: React.FC = () => {
             </Link>
           </li>
           <li>
-            <Link href="#intersections" className="text-sm font-medium">
-              INTERSECTIONS
+            <Link href="#what-to-expect" className="text-sm font-medium">
+              WHAT TO EXPECT
             </Link>
           </li>
           <li>

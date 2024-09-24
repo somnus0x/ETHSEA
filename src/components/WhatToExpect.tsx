@@ -12,7 +12,7 @@ const list = [
 
 const WhatToExpect: React.FC = () => {
   return (
-    <section id="about" className="bg-[#FFDA24] rounded-t-3xl pb-24">
+    <section id="what-to-expect" className="bg-[#FFDA24] rounded-t-3xl pb-24">
       <div className="container mx-auto py-4">
         <div className="mt-14 flex justify-center items-center">
           <div className="flex text-[#2C40BA] text-5xl uppercase font-semibold">

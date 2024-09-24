@@ -5,11 +5,11 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import PreFooter from '@/components/PreFooter'
-import Highlights from '@/components/Highlights'
 import TicketInfo from '@/components/TicketInfo'
 import Speakers from '@/components/Speaker'
 import FAQ from '@/components/FAQ'
 import Footer from '@/components/Footer'
+import Venue from '@/components/Venue'
 import WhatToExpect from '@/components/WhatToExpect'
 
 export default function Home() {
@@ -21,11 +21,11 @@ export default function Home() {
       <Hero />
       <About />
       <TicketInfo />
-      {/* <Highlights /> */}
       <WhatToExpect />
-      {/* <Speakers />
+      <Speakers />
+      <Venue />
+      <FAQ />
       <PreFooter />
-      <FAQ /> */}
       <Footer />
     </div>
   )
