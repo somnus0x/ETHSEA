@@ -9,14 +9,23 @@ const Speakers: React.FC = () => {
           Speakers
           <img className="mr-12" src="/images/what-to-expected.svg" alt="ticket" />
         </div>
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"> */}
-          {/* Add speaker items here */}
-          {/* <div className="bg-white p-4 shadow-md">Speaker 1</div> */}
-          {/* <div className="bg-white p-4 shadow-md">Speaker 2</div> */}
-          {/* <div className="bg-white p-4 shadow-md">Speaker 3</div> */}
-          {/* <div className="bg-white p-4 shadow-md">Speaker 4</div> */}
-        {/* </div> */}
-        Speaker announcements soon!
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="bg-white p-4 shadow-md text-center">
+            <img src="/speakers/aya.jpg" alt="Photo of Aya Miyaguchi" />
+            <p>Aya Miyaguchi</p>
+            <p>Executive Director, Ethereum Foundation</p>
+          </div>
+          <div className="bg-white p-4 shadow-md text-center">
+            <img src="/speakers/vitalik.jpg" alt="Photo of Vitalik Buterin" />
+            <p>Vitalik Buterin</p>
+            <p>Co-founder, Ethereum</p>
+          </div>
+          <div className="bg-white p-4 shadow-md text-center">
+            <img src="/speakers/placeholder.png" alt="Photo of Placeholder" />
+            <p>More speakers to be announced</p>
+            <p></p>
+          </div>
+        </div>
       </div>
     </section>
   )
