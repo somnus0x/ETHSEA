@@ -1,10 +1,82 @@
-import React from 'react'
+import React, { useState } from 'react'
 
+const speakers = [
+  {
+    name: 'Vitalik Buterin',
+    title: 'Co-founder, Ethereum',
+    social: '@VitalikButerin',
+    image: '/speakers/vitalik.jpg',
+    color: 'text-background-secondary',
+    description:
+      ' a revolutionary blockchain platform that introduced smart contracts and decentralized applications (dApps). His work has transformed blockchain technology, driving innovations like decentralized finance (DeFi) and NFTs, and empowering developers to build open, secure solutions for the future of the internet.',
+  },
+  {
+    name: 'Aya Miyaguchi',
+    title: 'Executive Director, Ethereum Foundation',
+    social: '@VitalikButerin',
+    image: '/speakers/aya.jpg',
+    color: 'text-yellow',
+    description:
+      ' a revolutionary blockchain platform that introduced smart contracts and decentralized applications (dApps). His work has transformed blockchain technology, driving innovations like decentralized finance (DeFi) and NFTs, and empowering developers to build open, secure solutions for the future of the internet.',
+  },
+]
 const Speakers: React.FC = () => {
+  const [speakerIndex, setSpeakerIndex] = useState(0)
   return (
-    <section id="speakers" className="py-16">
+    <section id="speakers" className="relative pb-28">
       <div className="container mx-auto px-4">
-        <div className="flex text-[#fff] text-5xl uppercase font-semibold">
+        <img
+          src="/images/speaker-adornment.png"
+          className="absolute top-[-32px] left-[-96px]"
+        />
+        <div className="text-6xl text-white font-normal mb-12">Speakers</div>
+        <div className="mt-12 flex justify-between">
+          <div className="w-2/3">
+            <img
+              src={speakers[speakerIndex].image}
+              className="rounded-3xl"
+              width="250"
+              height="250"
+              alt="Photo of Vitalik Buterin"
+            />
+            <div className="mt-8 font-semibold text-2xl">
+              <span className="text-yellow">{speakers[speakerIndex].title}</span>{' '}
+              <span className="text-white">
+                {speakers[speakerIndex].description}
+              </span>
+            </div>
+            <div className="mt-8 flex items-center">
+              <img src="/images/twitter.svg" />
+              <div className="font-semibold text-white text-2xl">
+                {speakers[speakerIndex].social}
+              </div>
+            </div>
+          </div>
+          <div className="w-1/3 flex flex-col justify-start items-end">
+            {speakers.map((speaker, index) => (
+              <div
+                onClick={() => setSpeakerIndex(index)}
+                key={index}
+                className="flex items-center cursor-pointer"
+              >
+                <div
+                  className={`font-medium ${speaker.color} underline text-3xl mr-8 ${
+                    index != speakerIndex ? 'mr-[75px]' : 'mr-8'
+                  }`}
+                >
+                  {speaker.name}
+                </div>
+                {index === speakerIndex && <img src="/images/speaker-diamond.svg" />}
+              </div>
+            ))}
+            <div className="flex items-center cursor-pointer">
+              <div className={`font-medium text-white underline text-3xl mr-[75px]`}>
+                More Incoming ..
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className="flex text-[#fff] text-5xl uppercase font-semibold">
           <img className="mr-12" src="/images/what-to-expected.svg" alt="ticket" />
           Speakers
           <img className="mr-12" src="/images/what-to-expected.svg" alt="ticket" />
@@ -25,7 +97,7 @@ const Speakers: React.FC = () => {
             <p>More speakers to be announced</p>
             <p></p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

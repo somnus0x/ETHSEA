@@ -10,27 +10,58 @@ const list = [
   'Unwind and enjoy the vibe!',
 ]
 
+const Item = ({ children, icon }: { children: any; icon: string }) => {
+  return (
+    <div className="flex items-center mb-4">
+      <img className="mr-4" src={icon} />
+      <div className="text-3xl font-semibold">{children}</div>
+    </div>
+  )
+}
+
 const WhatToExpect: React.FC = () => {
   return (
-    <section id="what-to-expect" className="bg-[#FFDA24] rounded-t-3xl pb-24">
+    <section id="what-to-expect" className="relative pb-28">
+      <img
+        src="/images/what-to-expect-adornment.png"
+        className="absolute top-[-32px] left-[-96px]"
+      />
       <div className="container mx-auto py-4">
-        <div className="mt-14 flex justify-center items-center">
-          <div className="flex text-[#2C40BA] text-5xl uppercase font-semibold">
-            <img className="mr-12" src="/images/what-to-expected.svg" alt="ticket" />
-            What to expect
-            <img className="ml-12" src="/images/what-to-expected.svg" alt="ticket" />
-          </div>
-        </div>
-        <div className="flex flex-wrap justify-center items-start mt-16">
-          {list.map((item, index) => (
-            <div
-              key={index}
-              className="rounded-[30px] w-[594px] text-3xl bg-white p-8 mb-4 mx-2"
-            >
-              <span>{item}</span>
-            </div>
-          ))}
-        </div>
+        <div className="text-6xl text-white font-normal mb-12">What to expect?</div>
+        <Item icon="/images/codepen.png">
+          <span className="text-secondary">Keynote speeches</span>{' '}
+          <span className="text-white">on Ethereum and blockchain technology</span>
+        </Item>
+        <Item icon="/images/command.png">
+          <span className="text-yellow">Interactive workshops</span>
+          <span className="text-white"> and</span>
+          <span className="text-yellow"> hands-on sessions</span>
+          <span className="text-white">
+            {' '}
+            on building Ethereum-based applications
+          </span>
+        </Item>
+        <Item icon="/images/instagram.png">
+          <span className="text-background-secondary">Exhibition area </span>{' '}
+          <span className="text-white">
+            showcasing innovative Ethereum-based solutions
+          </span>
+        </Item>
+        <Item icon="/images/book-open.png">
+          <span className="text-secondary">Panel discussions</span>{' '}
+          <span className="text-white">
+            {' '}
+            on topics such as security, scalability, and adoption
+          </span>
+        </Item>
+        <Item icon="/images/user.png">
+          <span className="text-secondary">Networking</span>{' '}
+          <span className="text-white"> opportunities with 500+ attendees</span>
+        </Item>
+        <Item icon="/images/smile.png">
+          <span className="text-background-secondary">Exclusive access to the </span>{' '}
+          <span className="text-white"> Ethereum SEA Day community</span>
+        </Item>
       </div>
     </section>
   )

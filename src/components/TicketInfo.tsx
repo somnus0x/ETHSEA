@@ -1,30 +1,50 @@
 import React from 'react'
-import TicketInfoBox from './TicketInfoBox'
+import CallToAction from './CallToAction'
+import Button from './Button'
 
 const TicketInfo: React.FC = () => {
   return (
-    <section id="ticket-info" className="bg-secondary rounded-t-3xl pb-24">
+    <section id="ticket-info" className="pb-24">
       <div className="container mx-auto py-4">
-        <div className="mt-14 flex justify-center items-center">
-          <div className="flex text-[#2C40BA] text-5xl uppercase font-semibold">
-            <img className="mr-12" src="/images/ticket-info.svg" alt="ticket" />
-            Ticket Info
-            <img className="ml-12" src="/images/ticket-info.svg" alt="ticket" />
+        <div className="rounded-[30px] bg-white p-12 mb-4">
+          <div className="text-background font-normal text-6xl mb-14">
+            Get your tickets
           </div>
-        </div>
-        <div className="flex flex-col justify-center items-center mt-16">
-          <TicketInfoBox
-            title="Full Access"
-            type="General Admission"
-            description="Full access to all sessions, networking opportunities, and refreshments."
-            price="10 USD"
-          />
-          <TicketInfoBox
-            title="Full Access"
-            type="Scholars Ticket"
-            description="For students, artists, builders, academics and everyone who are taking their journey into Ethereum. Apply by letting us know how you have been and/or planning to build in the Ethereum ecosystem. Receive the same benefits as the General Admission ticket."
-            price="FREE (Application Required)"
-          />
+          <div className="flex text-2xl">
+            <span className="text-primary mr-6">Full Access</span>
+            <span className="text-background">5 USD</span>
+          </div>
+          <div className="flex pb-9 border-b border-b-primary">
+            <div>
+              <div className="text-background text-6xl">General Admission</div>
+              <div className="text-background text-2xl mt-3">
+                Enjoy full access to Ethereum SEA Day, including all talks, workshops
+                and networking. Lunch, all-day snacks and swag included. No questions
+                asked.
+              </div>
+            </div>
+            <div>
+              <Button link="">Purchase</Button>
+            </div>
+          </div>
+          <div className="flex text-2xl mt-14">
+            <span className="text-primary mr-6">Full Access</span>
+            <span className="text-background">Free</span>
+          </div>
+          <div className="flex pb-9 ">
+            <div>
+              <div className="text-background text-6xl">Scholars Ticket</div>
+              <div className="text-background text-2xl mt-3">
+                For students, artists, builders, academics and everyone who are
+                taking their journey into Ethereum. Apply by letting us know how you
+                have been and/or planning to build in the Ethereum ecosystem. Receive
+                the same benefits as the General Admission ticket.
+              </div>
+            </div>
+            <div>
+              <Button link="">Apply Now</Button>
+            </div>
+          </div>
         </div>
       </div>
     </section>

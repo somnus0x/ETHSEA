@@ -15,14 +15,14 @@ import WhatToExpect from '@/components/WhatToExpect'
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
-      <div className="pt-5">
+      <div className="px-6 pt-7">
         <Header />
       </div>
       <Hero />
       <About />
-      <TicketInfo />
       <WhatToExpect />
       <Speakers />
+      <TicketInfo />
       <Venue />
       <FAQ />
       <PreFooter />

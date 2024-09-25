@@ -1,24 +1,36 @@
 import React from 'react'
-import CallToAction from '@/components/CallToAction'
+import CallToAction from '@/components/Button'
 
 const Venue: React.FC = () => {
   return (
-    <section className="bg-gray-100 py-20 text-center">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl text-[#fff] font-semibold mb-4">
-          Venue
-        </h2>
-        <div className="flex flex-col md:flex-row items-center md:items-start">
-          <div className="md:w-1/2 mb-4 md:mb-0">
-            <img className="w-full rounded-lg" src="/images/qsncc.jpg" alt="Queen Sirikit National Convention Center" />
+    <section id="venue" className="relative pb-28">
+      <img
+        src="/images/venue-adornment.png"
+        className="absolute top-[-32px] left-[-96px]"
+      />
+      <div className="container mx-auto py-4">
+        <div className="text-6xl text-white font-normal mb-12">The venue</div>
+        <div className="flex justify-between">
+          <div>
+            <a className="text-6xl text-primary" href="https://www.qsncc.com">
+              Queen Sirikit National <br /> Convention Center
+            </a>
+            <div className="mt-28">
+              <div className="text-yellow text-3xl">Location</div>
+            </div>
+            <a
+              href="https://maps.app.goo.gl/ScmRm11JqzBJJr7u6"
+              className="text-white text-3xl mt-3"
+            >
+              60 Ratchadaphisek Rd, Khlong Toei, Bangkok 10110
+            </a>
           </div>
-          <div className="md:w-1/2 md:pl-8 text-left">
-            <p className="text-xl mb-2">
-              <a href="https://www.qsncc.com">Queen Sirikit National Convention Center</a>
-            </p>
-            <p className="mb-2">60 Ratchadaphisek Rd, Khlong Toei, Bangkok 10110</p>
-            <a href="https://maps.app.goo.gl/ScmRm11JqzBJJr7u6">View on Google Maps</a>
-          </div>
+          <img
+            className=" rounded-lg"
+            width="500"
+            src="/images/qsncc.jpg"
+            alt="Queen Sirikit National Convention Center"
+          />
         </div>
       </div>
     </section>

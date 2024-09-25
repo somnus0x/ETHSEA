@@ -33,6 +33,9 @@ module.exports = {
       white: {
         DEFAULT: '#FFFFFF',
       },
+      yellow: {
+        DEFAULT: '#FCE300',
+      },
     },
   },
   content: [

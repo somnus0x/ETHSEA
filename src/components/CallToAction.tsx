@@ -2,9 +2,17 @@ import React from 'react'
 
 const CallToAction: React.FC = () => {
   return (
-    <a href="#ticket-info" className="inline-block bg-primary text-white px-8 py-3 rounded-[30px] text-lg font-semibold">
-      Register Now
-    </a>
+    <div className="flex items-center">
+      <img className="text-[#FCE300] mr-2" src="/images/arrow-right.svg" />
+      <a
+        href={''}
+        target="_blank"
+        className="text-[#FCE300] text-3xl underline mr-2"
+      >
+        Get tickets
+      </a>
+      <img src="/images/call-to-action-diamond.svg" />
+    </div>
   )
 }
 

@@ -1,23 +1,22 @@
 import React from 'react'
-import CallToAction from '@/components/CallToAction'
+import Button from '@/components/Button'
 
 const Hero: React.FC = () => {
   return (
-    <section className="text-center">
-      <div className="mx-12">
-        <img src="/images/hero.png" alt="hero" />
-      </div>
-      <div className="container mx-auto px-4">
-        <h1 className="text-5xl text-white uppercase font-semibold mb-4">
-          ethereum south east asia day
-        </h1>
-        <h1 className="text-3xl text-white uppercase font-semibold mb-4">
-          11st Nov 2024
-        </h1>
-        <div className="text-white text-xl mb-8">
-          Join us in shaping the future of ethereum in Southeast Asia
+    <section className="">
+      <div className="container mx-auto  py-4">
+        <div className="flex justify-between px-14">
+          <img src="/images/text.svg" />
+          <img src="/images/hero-logo.png" />
         </div>
-        <CallToAction />
+        <div className="flex justify-between items-center pt-40 pb-28">
+          <div className="font-medium text-xl text-white">November 11st, 2024</div>
+          <div className="font-medium text-xl text-white">
+            Queen Sirikit National Convention Center
+          </div>
+          <div className="font-medium text-xl text-white">Bangkok, Thailand</div>
+          <Button link="">GET YOUR TICKETS</Button>
+        </div>
       </div>
     </section>
   )
