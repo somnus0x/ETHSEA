@@ -14,20 +14,22 @@ const Item = ({ children, icon }: { children: any; icon: string }) => {
   return (
     <div className="flex items-center mb-4">
       <img className="mr-4" src={icon} />
-      <div className="text-3xl font-semibold">{children}</div>
+      <div className="md:text-3xl text-xl font-semibold">{children}</div>
     </div>
   )
 }
 
 const WhatToExpect: React.FC = () => {
   return (
-    <section id="what-to-expect" className="relative pb-28">
+    <section id="what-to-expect" className="relative md:pb-28 pb-14">
       <img
         src="/images/what-to-expect-adornment.png"
         className="absolute top-[-32px] left-[-96px]"
       />
-      <div className="container mx-auto py-4">
-        <div className="text-6xl text-white font-normal mb-12">What to expect?</div>
+      <div className="container mx-auto md:px-4 px-8 py-4">
+        <div className="md:text-5xl text-3xl text-white font-normal mb-12">
+          What to expect?
+        </div>
         <Item icon="/images/codepen.png">
           <span className="text-secondary">Keynote speeches</span>{' '}
           <span className="text-white">on Ethereum and blockchain technology</span>

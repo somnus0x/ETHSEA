@@ -7,7 +7,7 @@ const CallToAction: React.FC = () => {
       <a
         href={''}
         target="_blank"
-        className="text-[#FCE300] text-3xl underline mr-2"
+        className="text-[#FCE300] md:text-3xl text-xl underline mr-2"
       >
         Get tickets
       </a>

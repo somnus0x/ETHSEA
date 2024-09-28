@@ -4,10 +4,10 @@ import Button from './Button'
 
 const TicketInfo: React.FC = () => {
   return (
-    <section id="ticket-info" className="pb-24">
-      <div className="container mx-auto py-4">
+    <section id="ticket-info" className="md:pb-24 pb-14">
+      <div className="container mx-auto md:px-4 px-8 py-4">
         <div className="rounded-[30px] bg-white p-12 mb-4">
-          <div className="text-background font-normal text-6xl mb-14">
+          <div className="text-background font-normal md:text-5xl text-3xl mb-14">
             Get your tickets
           </div>
           <div className="flex text-2xl">
@@ -16,8 +16,10 @@ const TicketInfo: React.FC = () => {
           </div>
           <div className="flex pb-9 border-b border-b-primary">
             <div>
-              <div className="text-background text-6xl">General Admission</div>
-              <div className="text-background text-2xl mt-3">
+              <div className="text-background md:text-5xl text-3xl">
+                General Admission
+              </div>
+              <div className="text-background md:text-2xl text-xl mt-3">
                 Enjoy full access to Ethereum SEA Day, including all talks, workshops
                 and networking. Lunch, all-day snacks and swag included. No questions
                 asked.
@@ -27,14 +29,16 @@ const TicketInfo: React.FC = () => {
               <Button link="">Purchase</Button>
             </div>
           </div>
-          <div className="flex text-2xl mt-14">
+          <div className="flex md:text-2xl text-xl mt-14">
             <span className="text-primary mr-6">Full Access</span>
             <span className="text-background">Free</span>
           </div>
           <div className="flex pb-9 ">
             <div>
-              <div className="text-background text-6xl">Scholars Ticket</div>
-              <div className="text-background text-2xl mt-3">
+              <div className="text-background md:text-5xl text-3xl">
+                Scholars Ticket
+              </div>
+              <div className="text-background md:text-2xl text-xl mt-3">
                 For students, artists, builders, academics and everyone who are
                 taking their journey into Ethereum. Apply by letting us know how you
                 have been and/or planning to build in the Ethereum ecosystem. Receive

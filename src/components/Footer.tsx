@@ -59,14 +59,14 @@ const supporters = [
 const Footer: React.FC = () => {
   return (
     <footer className="">
-      <div className="container mx-auto px-4 py-32">
-        <div className="rounded-[30px] bg-white p-12 mb-32">
-          <div className="text-background font-normal text-6xl mb-14">
+      <div className="container mx-auto md:px-4 px-8 md:py-32 py-16">
+        <div className="rounded-[30px] bg-white p-12 md:mb-32 mb-16">
+          <div className="text-background font-normal md:text-5xl text-3xl mb-14">
             Presented by:
           </div>
           <div className="text-center">
-            {organizers.map((organizer) => (
-              <div className="inline-block w-64 text-center">
+            {organizers.map((organizer, index) => (
+              <div className="inline-block w-64 text-center" key={index}>
                 <a href="{organizer.url}">
                   <img className="max-h-32" src={organizer.img} />
                 </a>
@@ -74,8 +74,8 @@ const Footer: React.FC = () => {
             ))}
           </div>
           <div className="text-center">
-            {coorganizers.map((organizer) => (
-              <div className="inline-block w-48 text-center">
+            {coorganizers.map((organizer, index) => (
+              <div className="inline-block w-48 text-center" key={index}>
                 <a href="{organizer.url}">
                   <img className="max-h-32" src={organizer.img} />
                 </a>
@@ -83,8 +83,8 @@ const Footer: React.FC = () => {
             ))}
           </div>
         </div>
-        <div className="rounded-[30px] bg-white p-12 pb-32">
-          <div className="text-background font-normal text-6xl mb-14">
+        <div className="rounded-[30px] bg-white p-12 md:pb-32 pb-16">
+          <div className="text-background font-normal md:text-5xl text-3xl md:mb-14 mb-7">
             Supported by:
           </div>
           <p className="text-center">To be announced soon!</p>

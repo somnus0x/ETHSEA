@@ -30,16 +30,16 @@ const headerMenuList = [
 
 const Header: React.FC = () => {
   return (
-    <header className="flex justify-between px-12">
+    <header className="flex fixed top-0 w-full z-50 justify-between md:px-12 bg-background">
       <img src="/images/logo.svg" />
       <nav className="">
         <ul className="h-full  flex justify-between items-center text-white">
           {headerMenuList.map((menu) => {
             return (
-              <li className="mr-4 " key={menu.name}>
+              <li className="md:mr-4 mr-1" key={menu.name}>
                 <Link
                   href={menu.link}
-                  className="border-b border-white text-lg font-normal"
+                  className="border-b border-white text-sm md:text-lg font-normal"
                 >
                   {menu.name}
                 </Link>

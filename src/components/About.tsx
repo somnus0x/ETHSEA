@@ -3,81 +3,43 @@ import CallToAction from './CallToAction'
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="relative pb-28">
+    <section id="about" className="relative md:pb-28 pb-14">
       <img
         src="/images/about-adornment.png"
         className="absolute top-[-32px] left-[-96px]"
       />
-      <div className="container mx-auto ">
+      <div className="container mx-auto md:px-4 px-8 ">
         <div className="">
-          <div className="text-5xl text-white font-normal mb-2">
+          <div className="md:text-5xl text-3xl text-white font-normal mb-2">
             A one day conference designed to
           </div>
-          <div className="text-[#F8D113] text-5xl font-normal mb-2">
+          <div className="text-[#F8D113] md:text-5xl text-3xl font-normal mb-2">
             {' '}
             Onboard Newcomers
           </div>
-          <div className="text-[#2CC6BA] text-5xl font-normal mb-2">
+          <div className="text-[#2CC6BA] md:text-5xl text-3xl font-normal mb-2">
             {' '}
             Connect Leaders
           </div>
-          <div className="text-primary text-5xl font-normal mb-2">
+          <div className="text-primary md:text-5xl text-3xl font-normal mb-2">
             {' '}
             Showcase SEA Initiatives
           </div>
-          <div className="text-5xl text-white font-normal mb-2">
+          <div className="md:text-5xl text-3xl text-white font-normal mb-2">
             within the Ethereum ecosystem
           </div>
         </div>
-        <div className="flex  justify-around mt-11">
-          <div className="w-1/2 text-white text-3xl">
+        <div className="flex md:flex-row flex-col  justify-around mt-11">
+          <div className="w-full md:w-1/2 text-white md:text-3xl text-xl">
             Ethereum SEA Day brings together the best minds in the industry to share
             their insights, expertise, and experiences on all things Ethereum. Enjoy
             a full day of talks, workshops, and panels focused on the latest
             developments in Ethereum and blockchain technology.
           </div>
-          <div className="w-1/2 flex justify-end items-end">
+          <div className="w-full md:w-1/2 flex md:justify-end justify-center md:items-end md:items-center mt-10 md:mt-0">
             <CallToAction />
           </div>
         </div>
-        {/* <div className="flex justify-center items-center">
-          <div>
-            <img width={123} height={144} src="/images/adornment.svg" alt="about" />
-            <div className="text-5xl mt-6 text-white font-semibold border-b-4 border-[#2CC6BA]">
-              Intro
-            </div>
-          </div>
-        </div>
-        <div className="text-center mt-10">
-          <div className="text-white text-3xl ">
-            {' '}
-            
-          </div>
-          <div className="text-[#F8D113] text-5xl font-semibold mt-8 mb-4">
-            {' '}
-            Onboard Newcomers
-          </div>
-          <div className="text-[#2CC6BA] text-5xl font-semibold mb-4">
-            {' '}
-            Connect Leaders
-          </div>
-          <div className="text-primary text-5xl font-semibold mb-4">
-            {' '}
-            Showcase SEA Initiatives
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="w-[979px] text-white text-3xl font-semibold mb-4">
-              {' '}
-              within the Ethereum ecosystem in Southeast Asia. <br />
-              <br />
-              Ethereum SEA Day brings together the best minds in the industry to
-              share their insights, expertise, and experiences on all things
-              Ethereum. Enjoy a full day of talks, workshops, and panels focused on
-              the latest developments in Eths ereum and blockchain technology.
-            </div>
-          </div>
-        </div>
-      </div> */}
       </div>
     </section>
   )

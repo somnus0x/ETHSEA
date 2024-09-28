@@ -3,31 +3,35 @@ import CallToAction from '@/components/Button'
 
 const Venue: React.FC = () => {
   return (
-    <section id="venue" className="relative pb-28">
+    <section id="venue" className="relative md:pb-28 pb-14">
       <img
         src="/images/venue-adornment.png"
         className="absolute top-[-32px] left-[-96px]"
       />
-      <div className="container mx-auto py-4">
-        <div className="text-6xl text-white font-normal mb-12">The venue</div>
-        <div className="flex justify-between">
+      <div className="container mx-auto md:px-4 px-8 py-4">
+        <div className="md:text-5xl text-3xl text-white font-normal mb-12">
+          The venue
+        </div>
+        <div className="flex flex-col-reverse md:flex-row  justify-between items-center text-center md:text-left">
           <div>
-            <a className="text-6xl text-primary" href="https://www.qsncc.com">
+            <a
+              className="md:text-5xl text-3xl md:mt-0 mt-12 text-primary"
+              href="https://www.qsncc.com"
+            >
               Queen Sirikit National <br /> Convention Center
             </a>
-            <div className="mt-28">
-              <div className="text-yellow text-3xl">Location</div>
+            <div className="md:mt-28 mt-14">
+              <div className="text-yellow md:text-3xl text-xl">Location</div>
             </div>
             <a
               href="https://maps.app.goo.gl/ScmRm11JqzBJJr7u6"
-              className="text-white text-3xl mt-3"
+              className="text-white md:text-3xl text-xl mt-3"
             >
               60 Ratchadaphisek Rd, Khlong Toei, Bangkok 10110
             </a>
           </div>
           <img
-            className=" rounded-lg"
-            width="500"
+            className=" rounded-lg md:w-[500px] w-[250px] md:h-[300px] h-[150px] mb-12 md:mb-0"
             src="/images/qsncc.jpg"
             alt="Queen Sirikit National Convention Center"
           />

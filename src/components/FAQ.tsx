@@ -25,20 +25,20 @@ const faqs = [
 
 const FAQ: React.FC = () => {
   return (
-    <section id="faq" className="relative pb-32">
-      <div className="container mx-auto px-4">
+    <section id="faq" className="relative md:pb-32 pb-16">
+      <div className="container mx-auto md:px-4 px-8">
         <img
           src="/images/faq-adornment.png"
           className="absolute top-[-32px] left-[-96px]"
         />
-        <div className="text-6xl text-white font-normal mb-12">FAQ</div>
+        <div className="md:text-5xl text-3xl text-white font-normal mb-12">FAQ</div>
         <div className="space-y-4">
           {faqs.map((item) => (
             <div key={item.id} className="p-4  ">
-              <h3 className={`font-bold mb-2 text-3xl ${item.color}`}>
+              <h3 className={`font-bold mb-2 md:text-3xl text-2xl  ${item.color}`}>
                 {item.question}
               </h3>
-              <p className="text-2xl text-white">{item.answer}</p>
+              <p className="md:text-2xl text-xl text-white">{item.answer}</p>
             </div>
           ))}
         </div>

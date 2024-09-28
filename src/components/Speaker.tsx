@@ -24,22 +24,22 @@ const Speakers: React.FC = () => {
   const [speakerIndex, setSpeakerIndex] = useState(0)
   return (
     <section id="speakers" className="relative pb-28">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto md:px-4 px-8">
         <img
           src="/images/speaker-adornment.png"
           className="absolute top-[-32px] left-[-96px]"
         />
-        <div className="text-6xl text-white font-normal mb-12">Speakers</div>
+        <div className="md:text-5xl text-3xl text-white font-normal mb-12">
+          Speakers
+        </div>
         <div className="mt-12 flex justify-between">
           <div className="w-2/3">
             <img
               src={speakers[speakerIndex].image}
-              className="rounded-3xl"
-              width="250"
-              height="250"
+              className="rounded-3xl w-[125px] md:w-[250px] md:h-[250px] h-[125px]"
               alt="Photo of Vitalik Buterin"
             />
-            <div className="mt-8 font-semibold text-2xl">
+            <div className="mt-8 font-semibold md:text-2xl text-xl">
               <span className="text-yellow">{speakers[speakerIndex].title}</span>{' '}
               <span className="text-white">
                 {speakers[speakerIndex].description}
@@ -60,8 +60,10 @@ const Speakers: React.FC = () => {
                 className="flex items-center cursor-pointer"
               >
                 <div
-                  className={`font-medium ${speaker.color} underline text-3xl mr-8 ${
-                    index != speakerIndex ? 'mr-[75px]' : 'mr-8'
+                  className={`font-medium ${
+                    speaker.color
+                  } underline md:text-3xl text-xl mr-8 ${
+                    index != speakerIndex ? 'mr-[31px] md:mr-[75px]' : 'mr-8'
                   }`}
                 >
                   {speaker.name}
@@ -70,7 +72,9 @@ const Speakers: React.FC = () => {
               </div>
             ))}
             <div className="flex items-center cursor-pointer">
-              <div className={`font-medium text-white underline text-3xl mr-[75px]`}>
+              <div
+                className={`font-medium text-white underline md:text-3xl text-xl mr-[43px] md:mr-[75px]`}
+              >
                 More Incoming ..
               </div>
             </div>

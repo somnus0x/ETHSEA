@@ -8,9 +8,17 @@ module.exports = {
     fontFamily: {
       kodchasan: '"Kodchasan"',
     },
+    screens: {
+      DEFAULT: '100%',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+    },
     container: {
       padding: {
-        DEFAULT: '8px',
+        DEFAULT: '16px',
         xs: '16px',
         sm: '16px',
         md: '16px',
