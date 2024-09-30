@@ -45,6 +45,12 @@ const coorganizers = [
     url: 'https://www.facebook.com/Web3Together/',
     img: '/organizers/web3together.jpg',
   },
+  {
+    id: 'pagoda',
+    name: 'Pagoda',
+    url: 'https://pagoda.wtf',
+    img: '/organizers/pagoda.png',
+  },
 ]
 
 const supporters = [
