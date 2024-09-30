@@ -9,10 +9,10 @@ const faqs = [
     color: 'text-secondary',
   },
   {
-    id: 'refunds-and-transfers',
-    question: 'What are the policies towards refunds & transfers?',
+    id: 'transfers-and-refunds',
+    question: 'What are the policies towards transfers & refunds?',
     answer:
-      'All tickets are final and non-refundable. In our effort to prevent scalping and ensure equal opportunity for all interested community members to be able to purchase tickets, we will only allow ticket transfers on a case-by-case basis upon written request to support@ethsea.org.',
+      'All ticket types are transferable. Refunds are allowed on a case-by-case basis upon written request to support@ethsea.org.',
     color: 'text-primary',
   },
   {
