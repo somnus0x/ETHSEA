@@ -31,7 +31,7 @@ const coorganizers = [
     id: 'web3saigon',
     name: 'Web3 Saigon',
     url: 'https://x.com/Web3Saigon',
-    img: '/organizers/web3saigon.jpg',
+    img: '/organizers/web3saigon.png',
   },
   {
     id: 'ethereumindonesia',
@@ -43,7 +43,7 @@ const coorganizers = [
     id: 'web3together',
     name: 'Web3 Together',
     url: 'https://www.facebook.com/Web3Together/',
-    img: '/organizers/web3together.jpg',
+    img: '/organizers/web3together.png',
   },
   {
     id: 'pagoda',
@@ -58,6 +58,8 @@ const supporters = [
     id: 'devcon',
     name: 'Devcon',
     url: 'https://devcon.org',
+    img: '/supporters/devcon.png',
+  },
     img: null,
   },
 ]
@@ -80,10 +82,10 @@ const Footer: React.FC = () => {
             ))}
           </div>
           <div className="text-center">
-            {coorganizers.map((organizer, index) => (
+            {coorganizers.map((coorganizer, index) => (
               <div className="inline-block w-48 text-center" key={index}>
-                <a href="{organizer.url}">
-                  <img className="max-h-32" src={organizer.img} />
+                <a href={coorganizer.url}>
+                  <img className="max-h-32" src={coorganizer.img} />
                 </a>
               </div>
             ))}
@@ -93,7 +95,15 @@ const Footer: React.FC = () => {
           <div className="text-background font-normal md:text-5xl text-3xl md:mb-14 mb-7">
             Supported by:
           </div>
-          <p className="text-center">To be announced soon!</p>
+          {/* <p className="text-center">To be announced soon!</p> */}
+          {supporters.map((supporter) => (
+              <div className="inline-block w-48 text-center mb-16">
+                <a href={supporter.url || ""}>
+                  { supporter.img && <img className="max-h-32" src={supporter.img} />}
+                  { !supporter.img && supporter.name}
+                </a>
+              </div>
+            ))}
         </div>
       </div>
     </footer>
