@@ -54,11 +54,24 @@ const coorganizers = [
 ]
 
 const supporters = [
+  // Non-profit / communities
   {
     id: 'devcon',
     name: 'Devcon',
     url: 'https://devcon.org',
     img: '/supporters/devcon.png',
+  },
+  {
+    id: 'cubs',
+    name: 'Chulalongkorn University Blockchain Society',
+    url: 'https://www.instagram.com/cubs.chula',
+    img: '/supporters/cubs.png',
+  },
+  {
+    id: 'thbuidl',
+    name: 'THBUIDL',
+    url: 'https://x.com/THBUIDL',
+    img: '/supporters/thbuidl.png',
   },
     img: null,
   },
