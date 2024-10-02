@@ -32,7 +32,10 @@ const Speakers: React.FC = () => {
         <div className="md:text-5xl text-3xl text-white font-normal mb-12">
           Speakers
         </div>
-        <div className="mt-12 flex justify-between">
+        <div className="p-4 text-center text-white">
+          <p>Speakers to be announced soon!</p>
+        </div>
+        {/* <div className="mt-12 flex justify-between">
           <div className="w-2/3">
             <img
               src={speakers[speakerIndex].image}
@@ -79,7 +82,7 @@ const Speakers: React.FC = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <div className="flex text-[#fff] text-5xl uppercase font-semibold">
           <img className="mr-12" src="/images/what-to-expected.svg" alt="ticket" />
           Speakers
