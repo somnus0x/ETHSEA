@@ -36,7 +36,10 @@ const FAQ: React.FC = () => {
           {faqs.map((item) => (
             <div key={item.id} className="p-4  ">
               <h3 className={`font-bold mb-2 md:text-3xl text-2xl ${item.color}`}>
-              <img className="text-[#FCE300] inline mr-2" src="/images/arrow-right.svg" />
+                <img
+                  className="text-[#FCE300] inline mr-2"
+                  src="/images/arrow-right.svg"
+                />
                 {item.question}
               </h3>
               <p className="md:text-2xl text-xl text-white">{item.answer}</p>
