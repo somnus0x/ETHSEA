@@ -73,8 +73,6 @@ const supporters = [
     url: 'https://x.com/THBUIDL',
     img: '/supporters/thbuidl.png',
   },
-    img: null,
-  },
 ]
 
 const Footer: React.FC = () => {
@@ -85,16 +83,16 @@ const Footer: React.FC = () => {
           <div className="text-background font-normal md:text-5xl text-3xl mb-14">
             Presented by:
           </div>
-          <div className="text-center">
+          <div className="flex justify-between items-center">
             {organizers.map((organizer, index) => (
               <div className="inline-block w-64 text-center" key={index}>
-                <a href="{organizer.url}">
+                <a target="_blank" href={organizer.url}>
                   <img className="max-h-32" src={organizer.img} />
                 </a>
               </div>
             ))}
           </div>
-          <div className="text-center">
+          <div className="flex justify-between items-center">
             {coorganizers.map((coorganizer, index) => (
               <div className="inline-block w-48 text-center" key={index}>
                 <a href={coorganizer.url}>
@@ -109,14 +107,16 @@ const Footer: React.FC = () => {
             Supported by:
           </div>
           {/* <p className="text-center">To be announced soon!</p> */}
-          {supporters.map((supporter) => (
-              <div className="inline-block w-48 text-center mb-16">
-                <a href={supporter.url || ""}>
-                  { supporter.img && <img className="max-h-32" src={supporter.img} />}
-                  { !supporter.img && supporter.name}
+          <div className="flex justify-between items-center">
+            {supporters.map((supporter, index) => (
+              <div key={index} className="inline-block w-48 text-center mb-16">
+                <a href={supporter.url || ''}>
+                  {supporter.img && <img className="max-h-32" src={supporter.img} />}
+                  {!supporter.img && supporter.name}
                 </a>
               </div>
             ))}
+          </div>
         </div>
       </div>
     </footer>
