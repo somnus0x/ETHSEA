@@ -5,7 +5,7 @@ const CallToAction: React.FC = () => {
     <div className="flex items-center">
       <img className="text-[#FCE300] mr-2" src="/images/arrow-right.svg" />
       <a
-        href={''}
+        href="https://tickets.ethsea.org/"
         target="_blank"
         className="text-[#FCE300] md:text-3xl text-xl underline mr-2"
       >

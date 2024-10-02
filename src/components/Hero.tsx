@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
             </div>
           </div>
           <div className="mt-10 md:mt-0">
-            <Button link="">GET YOUR TICKETS</Button>
+            <Button link="https://tickets.ethsea.org/">GET YOUR TICKETS</Button>
           </div>
         </div>
       </div>
