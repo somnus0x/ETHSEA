@@ -52,5 +52,5 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx}',
     './src/hooks/**/*.{js,ts,jsx,tsx}',
   ],
-  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/line-clamp')],
+  plugins: [require('@tailwindcss/forms')],
 }
