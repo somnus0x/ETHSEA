@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 const speakers = [
   {
@@ -23,19 +24,20 @@ const speakers = [
 const Speakers: React.FC = () => {
   const [speakerIndex, setSpeakerIndex] = useState(0)
   return (
-    <section id="speakers" className="relative pb-28">
-      <div className="container mx-auto md:px-4 px-8">
-        <img
-          src="/images/speaker-adornment.png"
-          className="absolute top-[-32px] left-[-96px] opacity-15 md:opacity-100"
-        />
-        <div className="md:text-5xl text-3xl text-white font-normal mb-12">
-          Speakers
-        </div>
-        <div className="p-4 text-center text-white text-2xl">
-          <p>Speakers to be announced soon!</p>
-        </div>
-        {/* <div className="mt-12 flex justify-between">
+    <ScrollableAnchor id="speakers">
+      <section className="relative pb-28">
+        <div className=" mx-auto md:px-4 px-8">
+          <img
+            src="/images/speaker-adornment.png"
+            className="absolute top-[-32px] left-[-96px] md:left-[-200px] opacity-15 md:opacity-100"
+          />
+          <div className="md:text-5xl text-3xl text-white font-normal mb-12">
+            Speakers
+          </div>
+          <div className="p-4 text-center text-white text-2xl">
+            <p>Speakers to be announced soon!</p>
+          </div>
+          {/* <div className="mt-12 flex justify-between">
           <div className="w-2/3">
             <img
               src={speakers[speakerIndex].image}
@@ -83,7 +85,7 @@ const Speakers: React.FC = () => {
             </div>
           </div>
         </div> */}
-        {/* <div className="flex text-[#fff] text-5xl uppercase font-semibold">
+          {/* <div className="flex text-[#fff] text-5xl uppercase font-semibold">
           <img className="mr-12" src="/images/what-to-expected.svg" alt="ticket" />
           Speakers
           <img className="mr-12" src="/images/what-to-expected.svg" alt="ticket" />
@@ -105,8 +107,9 @@ const Speakers: React.FC = () => {
             <p></p>
           </div>
         </div> */}
-      </div>
-    </section>
+        </div>
+      </section>
+    </ScrollableAnchor>
   )
 }
 

@@ -2,11 +2,11 @@
 
 module.exports = {
   darkMode: 'class',
-  important: true,
+  // important: true,
   // prefix: undefined,
   theme: {
     fontFamily: {
-      kodchasan: '"Kodchasan"',
+      workSans: '"Work Sans"',
     },
     screens: {
       DEFAULT: '100%',
@@ -26,10 +26,18 @@ module.exports = {
         xl: '16px',
         '2xl': '16px',
       },
+      screens: {
+        DEFAULT: '100%',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1536px',
+      },
     },
     colors: {
       primary: {
-        DEFAULT: '#DE40BA',
+        DEFAULT: '#F99FC9',
       },
       secondary: {
         DEFAULT: '#2CC6BA',
@@ -45,7 +53,7 @@ module.exports = {
         DEFAULT: '#FCE300',
       },
       transparent: {
-        DEFAULT: 'transparent'
+        DEFAULT: 'transparent',
       },
     },
   },

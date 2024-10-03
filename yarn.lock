@@ -288,6 +288,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-scrollable-anchor@^0.6.4":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@types/react-scrollable-anchor/-/react-scrollable-anchor-0.6.4.tgz#ef85d1962bcbf13b4975f7a26fa9bc7c85378b55"
+  integrity sha512-Yn81DRAXPdOkqvDC6JO9KsTQv2g3bu45WGDfuI5G08vMntT7EvbBGrOeCuPkMQ8Q2JeZoP3TbKEMzLhJ8yAlGA==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@18.0.29":
   version "18.0.29"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.29.tgz#4cead505172c0020c5b51940199e31fc6ff2f63a"
@@ -1714,6 +1721,11 @@ json5@^1.0.2:
     array-includes "^3.1.5"
     object.assign "^4.1.3"
 
+jump.js@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/jump.js/-/jump.js-1.0.1.tgz#0de2b1631ba9a1c2c6b8572ad277d877e8503600"
+  integrity sha512-KXS4lfs3AcGdYl7cXk4X9mHb6PWIdrvBzGJs/QnG2g6niRoORkwisedbdjKu0VyUYmE2x7V+cV9ypSpaGRL0zg==
+
 language-subtag-registry@~0.3.2:
   version "0.3.22"
   resolved "https://registry.yarnpkg.com/language-subtag-registry/-/language-subtag-registry-0.3.22.tgz#2e1500861b2e457eba7e7ae86877cbd08fa1fd1d"
@@ -2160,7 +2172,7 @@ prettier@^2.8.7:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.7.tgz#bb79fc8729308549d28fe3a98fce73d2c0656450"
   integrity sha512-yPngTo3aXUUmyuTjeTUT75txrf+aMh9FiD7q9ZE/i6r0bPb22g4FsE6Y338PQX1bmfy08i9QQCB7/rcUAVntfw==
 
-prop-types@^15.8.1:
+prop-types@^15.5.10, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -2208,6 +2220,14 @@ react-redux@^8.0.5:
     hoist-non-react-statics "^3.3.2"
     react-is "^18.0.0"
     use-sync-external-store "^1.0.0"
+
+react-scrollable-anchor@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/react-scrollable-anchor/-/react-scrollable-anchor-0.6.1.tgz#fd6e78026c744f76414053d06903b82adccb54d9"
+  integrity sha512-baaZKLXEmmaJzVXthx57K0jFgZjRiSEkhVTTssX03bzB097lIE1BYPVgtpgpAoETxTbiM+vDRJ2IPtClSQlj0A==
+  dependencies:
+    jump.js "1.0.1"
+    prop-types "^15.5.10"
 
 react@18.2.0:
   version "18.2.0"

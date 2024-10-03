@@ -24,9 +24,9 @@ const WhatToExpect: React.FC = () => {
     <section id="what-to-expect" className="relative md:pb-28 pb-14">
       <img
         src="/images/what-to-expect-adornment.png"
-        className="absolute top-[-32px] left-[-96px] opacity-15 md:opacity-100"
+        className="absolute top-[-32px] eft-[-96px] md:left-[-200px] opacity-15 md:opacity-100"
       />
-      <div className="container mx-auto md:px-4 px-8 py-4">
+      <div className=" mx-auto md:px-4 px-8 py-4">
         <div className="md:text-5xl text-3xl text-white font-normal mb-12">
           What to expect?
         </div>
@@ -56,8 +56,8 @@ const WhatToExpect: React.FC = () => {
             on topics such as security, scalability, and adoption
           </span>
         </Item>
-        <Item icon="/images/user.png">
-          <span className="text-secondary">Networking</span>{' '}
+        <Item icon="/images/users.png">
+          <span className="text-yellow">Networking</span>{' '}
           <span className="text-white"> opportunities with 500+ attendees</span>
         </Item>
         <Item icon="/images/smile.png">
