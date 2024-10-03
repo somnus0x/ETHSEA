@@ -30,7 +30,7 @@ const headerMenuList = [
 
 const Header: React.FC = () => {
   return (
-    <header className="flex fixed top-0 w-full z-50 justify-between md:px-12 bg-background">
+    <header className="flex fixed top-0 w-full z-50 justify-between p-2 md:px-12 md:py-4 bg-background md:bg-transparent">
       <img src="/images/logo.svg" />
       <nav className="">
         <ul className="h-full  flex justify-between items-center text-white">

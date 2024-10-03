@@ -44,6 +44,9 @@ module.exports = {
       yellow: {
         DEFAULT: '#FCE300',
       },
+      transparent: {
+        DEFAULT: 'transparent'
+      },
     },
   },
   content: [
