@@ -7,16 +7,16 @@ const headerMenuList = [
     link: '#about',
   },
   {
-    name: 'Speakers',
-    link: '#what-to-expect',
-  },
-  {
     name: 'Tickets',
     link: '#ticket-info',
   },
   {
-    name: 'Venue',
+    name: 'Speakers',
     link: '#speakers',
+  },
+  {
+    name: 'Venue',
+    link: '#venue',
   },
   {
     name: 'FAQ',
@@ -24,7 +24,7 @@ const headerMenuList = [
   },
   {
     name: 'Supporters',
-    link: '#faq',
+    link: '#supporters',
   },
 ]
 

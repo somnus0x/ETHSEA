@@ -77,7 +77,7 @@ const supporters = [
 
 const Footer: React.FC = () => {
   return (
-    <footer className="">
+    <footer className="" id="supporters">
       <div className="container mx-auto md:px-4 px-8 md:py-32 py-16">
         <div className="rounded-[30px] bg-white p-12 md:mb-32 mb-16">
           <div className="text-background font-normal md:text-5xl text-3xl mb-14">
