@@ -14,7 +14,7 @@ const TicketInfo: React.FC = () => {
                 Get your tickets
               </div>
               <div>
-                <Button link="">Get Your Ticket</Button>
+                <Button link="https://tickets.ethsea.org">Get Your Ticket</Button>
               </div>
             </div>
             <div className="flex text-2xl">
