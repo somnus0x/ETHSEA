@@ -23,9 +23,7 @@ export default function Home() {
         backgroundSize: '100% 100%',
       }}
     >
-      <div className="md:px-6 pb-14">
-        <Header />
-      </div>
+      <Header />
       <Hero />
       <About />
       <WhatToExpect />

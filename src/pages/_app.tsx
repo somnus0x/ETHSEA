@@ -3,6 +3,7 @@ import { ThemeProvider } from '@/libs/next-themes'
 import { Provider } from 'react-redux'
 
 import '@/styles/globals.css'
+import 'tailwindcss/tailwind.css'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
