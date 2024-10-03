@@ -83,20 +83,20 @@ const Footer: React.FC = () => {
           <div className="text-background font-normal md:text-5xl text-3xl mb-14">
             Presented by:
           </div>
-          <div className="flex justify-between items-center">
+          <div className="flex mb-8 justify-between items-center">
             {organizers.map((organizer, index) => (
               <div className="inline-block w-64 text-center" key={index}>
                 <a target="_blank" href={organizer.url}>
-                  <img className="max-h-32" src={organizer.img} />
+                  <img className="max-h-32 inline-block" src={organizer.img} />
                 </a>
               </div>
             ))}
           </div>
-          <div className="flex justify-between items-center">
+          <div className="flex md:px-48 px-8 justify-between items-center">
             {coorganizers.map((coorganizer, index) => (
               <div className="inline-block w-48 text-center" key={index}>
                 <a href={coorganizer.url}>
-                  <img className="max-h-32" src={coorganizer.img} />
+                  <img className="max-h-32 inline-block" src={coorganizer.img} />
                 </a>
               </div>
             ))}
@@ -107,11 +107,11 @@ const Footer: React.FC = () => {
             Supported by:
           </div>
           {/* <p className="text-center">To be announced soon!</p> */}
-          <div className="flex justify-between items-center">
+          <div className="flex flex-wrap justify-between items-center">
             {supporters.map((supporter, index) => (
-              <div key={index} className="inline-block w-48 text-center mb-16">
+              <div key={index} className="inline-block w-48 text-center">
                 <a href={supporter.url || ''}>
-                  {supporter.img && <img className="max-h-32" src={supporter.img} />}
+                  {supporter.img && <img className="max-h-32 inline-block" src={supporter.img} />}
                   {!supporter.img && supporter.name}
                 </a>
               </div>
