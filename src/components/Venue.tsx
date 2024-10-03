@@ -20,7 +20,7 @@ const Venue: React.FC = () => {
             >
               Queen Sirikit National <br /> Convention Center
             </a>
-            <div className="md:mt-28 mt-14">
+            <div className="md:mt-18 mt-8">
               <div className="text-yellow md:text-3xl text-xl">Location</div>
             </div>
             <a
@@ -31,7 +31,7 @@ const Venue: React.FC = () => {
             </a>
           </div>
           <img
-            className=" rounded-lg md:max-w-lg md:h-[360px] h-[150px] mb-12 md:mb-0"
+            className=" rounded-lg md:max-w-3xl mb-12 md:mb-0"
             src="/images/qsncc.jpg"
             alt="Queen Sirikit National Convention Center"
           />
