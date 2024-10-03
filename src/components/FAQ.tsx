@@ -29,7 +29,7 @@ const FAQ: React.FC = () => {
       <div className="container mx-auto md:px-4 px-8">
         <img
           src="/images/faq-adornment.png"
-          className="absolute top-[-32px] left-[-96px]"
+          className="absolute top-[-32px] left-[-96px] opacity-15 md:opacity-100"
         />
         <div className="md:text-5xl text-3xl text-white font-normal mb-12">FAQ</div>
         <div className="space-y-4">

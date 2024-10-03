@@ -27,12 +27,12 @@ const Speakers: React.FC = () => {
       <div className="container mx-auto md:px-4 px-8">
         <img
           src="/images/speaker-adornment.png"
-          className="absolute top-[-32px] left-[-96px]"
+          className="absolute top-[-32px] left-[-96px] opacity-15 md:opacity-100"
         />
         <div className="md:text-5xl text-3xl text-white font-normal mb-12">
           Speakers
         </div>
-        <div className="p-4 text-center text-white">
+        <div className="p-4 text-center text-white text-2xl">
           <p>Speakers to be announced soon!</p>
         </div>
         {/* <div className="mt-12 flex justify-between">

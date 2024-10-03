@@ -6,7 +6,7 @@ const Venue: React.FC = () => {
     <section id="venue" className="relative md:pb-28 pb-14">
       <img
         src="/images/venue-adornment.png"
-        className="absolute top-[-32px] left-[-96px]"
+        className="absolute top-[-32px] left-[-96px] opacity-15 md:opacity-100"
       />
       <div className="container mx-auto md:px-4 px-8 py-4">
         <div className="md:text-5xl text-3xl text-white font-normal mb-12">
@@ -15,7 +15,7 @@ const Venue: React.FC = () => {
         <div className="flex flex-col-reverse md:flex-row  justify-between items-center text-center md:text-left">
           <div>
             <a
-              className="md:text-5xl text-3xl md:mt-0 mt-12 text-primary"
+              className="md:text-6xl text-3xl md:leading-tight md:mt-0 mt-12 text-primary"
               href="https://www.qsncc.com"
             >
               Queen Sirikit National <br /> Convention Center
@@ -31,7 +31,7 @@ const Venue: React.FC = () => {
             </a>
           </div>
           <img
-            className=" rounded-lg md:w-[500px] w-[250px] md:h-[300px] h-[150px] mb-12 md:mb-0"
+            className=" rounded-lg md:max-w-lg md:h-[360px] h-[150px] mb-12 md:mb-0"
             src="/images/qsncc.jpg"
             alt="Queen Sirikit National Convention Center"
           />

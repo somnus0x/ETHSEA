@@ -7,7 +7,7 @@ const PreFooter: React.FC = () => {
       <div className="container mx-auto md:px-4 px-8">
         <img
           src="/images/faq-adornment.png"
-          className="absolute top-[-32px] left-[-96px]"
+          className="absolute top-[-32px] left-[-96px] opacity-15 md:opacity-100"
         />
         <div className="flex flex-col md:flex-row justify-around">
           <div className="w-2/3 md:text-5xl text-3xl text-white font-normal mb-12">

@@ -24,7 +24,7 @@ const WhatToExpect: React.FC = () => {
     <section id="what-to-expect" className="relative md:pb-28 pb-14">
       <img
         src="/images/what-to-expect-adornment.png"
-        className="absolute top-[-32px] left-[-96px]"
+        className="absolute top-[-32px] left-[-96px] opacity-15 md:opacity-100"
       />
       <div className="container mx-auto md:px-4 px-8 py-4">
         <div className="md:text-5xl text-3xl text-white font-normal mb-12">

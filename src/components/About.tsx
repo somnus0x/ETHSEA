@@ -6,7 +6,7 @@ const About: React.FC = () => {
     <section id="about" className="relative md:pb-28 pb-14">
       <img
         src="/images/about-adornment.png"
-        className="absolute top-[-32px] left-[-96px]"
+        className="absolute top-[-32px] left-[-96px] opacity-15 md:opacity-100"
       />
       <div className="container mx-auto md:px-4 px-8 ">
         <div className="">

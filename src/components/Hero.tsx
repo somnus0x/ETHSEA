@@ -4,7 +4,7 @@ import Button from '@/components/Button'
 const Hero: React.FC = () => {
   return (
     <section>
-      <div className="container md:pt-40 md:px-4 px-8 mx-auto md:py-4">
+      <div className="container pt-28 md:pt-40 md:px-4 px-8 mx-auto md:py-4">
         <div className="flex justify-between md:px-14">
           <img className="w-2/3" src="/images/text.svg" />
           <img className="w-1/3" src="/images/hero-logo.png" />
