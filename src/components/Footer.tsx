@@ -82,7 +82,7 @@ const supporters = [
   },
   {
     id: 'smallworld',
-    name: "Smallworld",
+    name: 'Smallworld',
     url: 'https://smallworldventure.com/',
     img: '/supporters/smallworld.png',
   },
