@@ -4,6 +4,13 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <title>Ethereum SEA Day</title>
+        <meta
+          name="description"
+          content="Ethereum SEA Day brings together the best minds in the industry to share
+          their insights, expertise, and experiences on all things Ethereum"
+        />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
