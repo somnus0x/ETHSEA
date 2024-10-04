@@ -19,7 +19,7 @@ const TicketInfo: React.FC = () => {
             </div>
             <div className="flex text-2xl">
               <span className="text-primary mr-6">Full Access</span>
-              <span className="text-background">5 USD</span>
+              <span className="text-background">10 USD</span>
             </div>
             <div className="flex pb-9 border-b border-b-primary">
               <div>
