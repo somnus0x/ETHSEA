@@ -73,6 +73,19 @@ const supporters = [
     url: 'https://x.com/THBUIDL',
     img: '/supporters/thbuidl.png',
   },
+  // Companies
+  {
+    id: 'cleverse',
+    name: 'Cleverse',
+    url: 'https://cleverse.com',
+    img: '/supporters/cleverse.png',
+  },
+  {
+    id: 'smallworld',
+    name: "Smallworld",
+    url: 'https://smallworldventure.com/',
+    img: '/supporters/smallworld.png',
+  },
 ]
 
 const Footer: React.FC = () => {
