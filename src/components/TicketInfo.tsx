@@ -28,8 +28,7 @@ const TicketInfo: React.FC = () => {
                 </div>
                 <div className="text-background md:text-2xl text-xl mt-3">
                   Enjoy full access to Ethereum SEA Day, including all talks,
-                  workshops and networking. Lunch, all-day snacks and swag included.
-                  No questions asked.
+                  workshops and networking. FREE lunch, all-day snacks and a swag.
                 </div>
               </div>
             </div>
@@ -46,7 +45,7 @@ const TicketInfo: React.FC = () => {
                   For students, artists, builders, academics and everyone who are
                   taking their journey into Ethereum. Apply by letting us know how
                   you have been and/or planning to build in the Ethereum ecosystem.
-                  Receive the same benefits as the General Admission ticket.
+                  Receive the same benefits as the General Admission ticket (FREE lunch, all-day snacks and a swag).
                 </div>
               </div>
             </div>
