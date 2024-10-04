@@ -24,7 +24,7 @@ const WhatToExpect: React.FC = () => {
     <section id="what-to-expect" className="relative md:pb-28 pb-14">
       <img
         src="/images/what-to-expect-adornment.png"
-        className="absolute top-[-32px] eft-[-96px] md:left-[-200px] opacity-15 md:opacity-100"
+        className="absolute top-[-32px] left-[-96px] md:left-[-200px] opacity-15 md:opacity-100"
       />
       <div className=" mx-auto md:px-4 px-8 py-4">
         <div className="md:text-5xl text-3xl text-white font-normal mb-12">
@@ -44,7 +44,7 @@ const WhatToExpect: React.FC = () => {
           </span>
         </Item>
         <Item icon="/images/instagram.png">
-          <span className="text-background-secondary">Exhibition area </span>{' '}
+          <span className="text-primary">Exhibition area </span>{' '}
           <span className="text-white">
             showcasing innovative Ethereum-based solutions
           </span>
@@ -61,8 +61,8 @@ const WhatToExpect: React.FC = () => {
           <span className="text-white"> opportunities with 500+ attendees</span>
         </Item>
         <Item icon="/images/smile.png">
-          <span className="text-background-secondary">Exclusive access to the </span>{' '}
-          <span className="text-white"> Ethereum SEA Day community</span>
+          <span className="text-white">Exclusive access to the </span>{' '}
+          <span className="text-primary"> Ethereum SEA Day community</span>
         </Item>
       </div>
     </section>

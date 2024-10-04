@@ -9,29 +9,30 @@ const TicketInfo: React.FC = () => {
         <div className="rounded-[30px] bg-white p-12 mb-4">
           <div className="flex justify-between items-center mb-14">
             <div className="text-background font-normal md:text-5xl text-3xl ">
-              Get your tickets
+              Tickets Info
             </div>
             <div>
               <Button link="https://tickets.ethsea.org">Get Your Ticket</Button>
             </div>
           </div>
           <div className="flex text-2xl">
-            <span className="text-primary mr-6">Full Access</span>
+            <span className="text-[#DE40BA] mr-6">Full Access</span>
             <span className="text-background">10 USD</span>
           </div>
-          <div className="flex pb-9 border-b border-b-primary">
+          <div style={{ borderBottom: '1px solid #DE40BA' }} className="flex pb-9 ">
             <div>
               <div className="text-background font-semibold md:text-5xl text-3xl">
                 General Admission
               </div>
               <div className="text-background md:text-2xl text-xl mt-3">
                 Enjoy full access to Ethereum SEA Day, including all talks, workshops
-                and networking. FREE lunch, all-day snacks and a swag.
+                and networking. Lunch, all-day snacks and swag included. No questions
+                asked.
               </div>
             </div>
           </div>
           <div className="flex md:text-2xl text-xl mt-14">
-            <span className="text-primary mr-6">Full Access</span>
+            <span className="text-[#DE40BA] mr-6">Full Access</span>
             <span className="text-background">Free</span>
           </div>
           <div className="flex pb-9 ">

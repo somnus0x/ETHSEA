@@ -8,7 +8,7 @@ const About: React.FC = () => {
         src="/images/about-adornment.png"
         className="absolute top-[-32px] left-[-96px] md:left-[-200px] opacity-15 md:opacity-100"
       />
-      <div className=" container mx-auto md:px-4 px-8 ">
+      <div className=" md:px-4 px-8 ">
         <div className="">
           <div className="md:text-5xl text-3xl text-white font-normal mb-2">
             A one day conference designed to
@@ -36,7 +36,7 @@ const About: React.FC = () => {
             a full day of talks, workshops, and panels focused on the latest
             developments in Ethereum and blockchain technology.
           </div>
-          <div className="w-full md:w-1/2 flex md:justify-end justify-center md:items-end md:items-center mt-10 md:mt-0">
+          <div className="w-full md:w-1/2 flex md:justify-end justify-center md:items-end items-center mt-10 md:mt-0">
             <CallToAction />
           </div>
         </div>

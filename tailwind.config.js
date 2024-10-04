@@ -9,7 +9,7 @@ module.exports = {
       workSans: '"Work Sans"',
     },
     screens: {
-      DEFAULT: '100%',
+      // DEFAULT: '100%',
       sm: '640px',
       md: '768px',
       lg: '1024px',
@@ -18,7 +18,7 @@ module.exports = {
     },
     container: {
       padding: {
-        DEFAULT: '16px',
+        // DEFAULT: '16px',
         xs: '16px',
         sm: '16px',
         md: '16px',
@@ -26,14 +26,14 @@ module.exports = {
         xl: '16px',
         '2xl': '16px',
       },
-      screens: {
-        DEFAULT: '100%',
-        sm: '640px',
-        md: '768px',
-        lg: '1024px',
-        xl: '1280px',
-        '2xl': '1536px',
-      },
+      // screens: {
+      //   DEFAULT: 'auto',
+      //   sm: '640px',
+      //   md: '768px',
+      //   lg: '1024px',
+      //   xl: '1280px',
+      //   '2xl': '1536px',
+      // },
     },
     colors: {
       primary: {

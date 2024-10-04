@@ -26,7 +26,7 @@ export default function Home() {
       <div className="md:px-6 md:pb-14">
         <Header />
       </div>
-      <div className="container mx-auto">
+      <div className="container md:mx-auto">
         <Hero />
         <About />
         <WhatToExpect />

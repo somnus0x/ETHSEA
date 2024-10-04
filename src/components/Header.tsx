@@ -32,12 +32,9 @@ const Header: React.FC = () => {
   return (
     <nav className="bg-transparent  border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a
-          href="https://flowbite.com/"
-          className="flex items-center space-x-3 rtl:space-x-reverse"
-        >
+        <div className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="/images/logo.svg" alt="Logo" />
-        </a>
+        </div>
         <button
           data-collapse-toggle="navbar-default"
           type="button"
@@ -69,7 +66,7 @@ const Header: React.FC = () => {
                   <li key={index}>
                     <a
                       href={menu.link}
-                      className="block py-2 px-3  md:text-white underline-none md:underline  bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                      className="block py-2 px-3  text-black underline-none md:underline  bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0  md:dark:text-blue-500"
                       aria-current="page"
                     >
                       {menu.name}

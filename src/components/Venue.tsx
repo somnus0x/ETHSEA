@@ -11,10 +11,10 @@ const Venue: React.FC = () => {
         <div className="md:text-5xl text-3xl text-white font-normal mb-12">
           The venue
         </div>
-        <div className="flex flex-col-reverse md:flex-row  justify-between items-center text-center md:text-left">
-          <div>
+        <div className="flex flex-col-reverse md:flex-row  justify-between items-start text-center md:text-left">
+          <div className="mr-4">
             <a
-              className="md:text-6xl text-3xl md:leading-tight md:mt-0 mt-12 text-primary"
+              className="md:text-5xl text-3xl md:leading-tight md:mt-0 mt-12 text-primary"
               href="https://www.qsncc.com"
             >
               Queen Sirikit National <br /> Convention Center
@@ -30,7 +30,7 @@ const Venue: React.FC = () => {
             </a>
           </div>
           <img
-            className=" rounded-lg md:max-w-3xl w-full mb-12 md:mb-0"
+            className=" rounded-lg md:w-1/2 w-full mb-12 md:mb-0"
             src="/images/qsncc.jpg"
             alt="Queen Sirikit National Convention Center"
           />

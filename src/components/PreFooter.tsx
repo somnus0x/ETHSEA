@@ -18,8 +18,8 @@ const PreFooter: React.FC = () => {
           </div>
         </div>
         <div className="flex justify-between md:mt-32 mt-16">
-          {/* <img className="w-1/3" src="/images/hero-logo.png" />
-          <img className="w-2/3" src="/images/text.svg" /> */}
+          <img className="w-1/3 lg:mr-32" src="/images/hero-logo.png" />
+          <img className="w-2/3" src="/images/text.svg" />
         </div>
       </div>
     </section>
