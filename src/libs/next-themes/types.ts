@@ -41,5 +41,3 @@ export interface ThemeProviderProps {
 
   children?: React.ReactNode
 }
-
-declare module 'react-scrollable-anchor'
