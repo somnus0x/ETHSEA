@@ -45,7 +45,8 @@ const TicketInfo: React.FC = () => {
                   For students, artists, builders, academics and everyone who are
                   taking their journey into Ethereum. Apply by letting us know how
                   you have been and/or planning to build in the Ethereum ecosystem.
-                  Receive the same benefits as the General Admission ticket (FREE lunch, all-day snacks and a swag).
+                  Receive the same benefits as the General Admission ticket (FREE
+                  lunch, all-day snacks and a swag).
                 </div>
               </div>
             </div>
