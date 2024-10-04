@@ -1,5 +1,4 @@
 import React from 'react'
-import ScrollableAnchor from 'react-scrollable-anchor'
 
 const faqs = [
   {
@@ -26,33 +25,29 @@ const faqs = [
 
 const FAQ: React.FC = () => {
   return (
-    <ScrollableAnchor id="faq">
-      <section className="relative md:pb-32 pb-16">
-        <div className=" mx-auto md:px-4 px-8">
-          <img
-            src="/images/faq-adornment.png"
-            className="absolute top-[-32px] left-[-96px] md:left-[-200px] opacity-15 md:opacity-100"
-          />
-          <div className="md:text-5xl text-3xl text-white font-normal mb-12">
-            FAQ
-          </div>
-          <div className="space-y-4">
-            {faqs.map((item) => (
-              <div key={item.id} className="p-4  ">
-                <h3 className={`font-bold mb-2 md:text-3xl text-2xl ${item.color}`}>
-                  <img
-                    className="text-[#FCE300] inline mr-2"
-                    src="/images/arrow-right.svg"
-                  />
-                  {item.question}
-                </h3>
-                <p className="md:text-2xl text-xl text-white">{item.answer}</p>
-              </div>
-            ))}
-          </div>
+    <section id="faq" className="relative md:pb-32 pb-16">
+      <div className=" mx-auto md:px-4 px-8">
+        <img
+          src="/images/faq-adornment.png"
+          className="absolute top-[-32px] left-[-96px] md:left-[-200px] opacity-15 md:opacity-100"
+        />
+        <div className="md:text-5xl text-3xl text-white font-normal mb-12">FAQ</div>
+        <div className="space-y-4">
+          {faqs.map((item) => (
+            <div key={item.id} className="p-4  ">
+              <h3 className={`font-bold mb-2 md:text-3xl text-2xl ${item.color}`}>
+                <img
+                  className="text-[#FCE300] inline mr-2"
+                  src="/images/arrow-right.svg"
+                />
+                {item.question}
+              </h3>
+              <p className="md:text-2xl text-xl text-white">{item.answer}</p>
+            </div>
+          ))}
         </div>
-      </section>
-    </ScrollableAnchor>
+      </div>
+    </section>
   )
 }
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import ScrollableAnchor from 'react-scrollable-anchor'
 
 const organizers = [
   {
@@ -78,53 +77,51 @@ const supporters = [
 
 const Footer: React.FC = () => {
   return (
-    <ScrollableAnchor id="supporters">
-      <footer>
-        <div className=" mx-auto md:px-4 px-8 md:py-32 py-16">
-          <div className="rounded-[30px] bg-white p-12 md:mb-32 mb-16">
-            <div className="text-background font-normal md:text-5xl text-3xl mb-14">
-              Presented by:
-            </div>
-            <div className="flex mb-8 justify-between items-center">
-              {organizers.map((organizer, index) => (
-                <div className="inline-block w-64 text-center" key={index}>
-                  <a target="_blank" href={organizer.url}>
-                    <img className="max-h-32 inline-block" src={organizer.img} />
-                  </a>
-                </div>
-              ))}
-            </div>
-            <div className="flex md:px-48 px-8 justify-between items-center">
-              {coorganizers.map((coorganizer, index) => (
-                <div className="inline-block w-48 text-center" key={index}>
-                  <a href={coorganizer.url}>
-                    <img className="max-h-32 inline-block" src={coorganizer.img} />
-                  </a>
-                </div>
-              ))}
-            </div>
+    <footer id="supporters">
+      <div className=" mx-auto md:px-4 px-8 md:py-32 py-16">
+        <div className="rounded-[30px] bg-white p-12 md:mb-32 mb-16">
+          <div className="text-background font-normal md:text-5xl text-3xl mb-14">
+            Presented by:
           </div>
-          <div className="rounded-[30px] bg-white p-12 md:pb-32 pb-16">
-            <div className="text-background font-normal md:text-5xl text-3xl md:mb-14 mb-7">
-              Supported by:
-            </div>
-            {/* <p className="text-center">To be announced soon!</p> */}
-            <div className="flex flex-wrap justify-between items-center">
-              {supporters.map((supporter, index) => (
-                <div key={index} className="inline-block w-48 text-center">
-                  <a href={supporter.url || ''}>
-                    {supporter.img && (
-                      <img className="max-h-32 inline-block" src={supporter.img} />
-                    )}
-                    {!supporter.img && supporter.name}
-                  </a>
-                </div>
-              ))}
-            </div>
+          <div className="flex mb-8 justify-between items-center">
+            {organizers.map((organizer, index) => (
+              <div className="inline-block w-64 text-center" key={index}>
+                <a target="_blank" href={organizer.url}>
+                  <img className="max-h-32 inline-block" src={organizer.img} />
+                </a>
+              </div>
+            ))}
+          </div>
+          <div className="flex md:px-48 px-8 justify-between items-center">
+            {coorganizers.map((coorganizer, index) => (
+              <div className="inline-block w-48 text-center" key={index}>
+                <a href={coorganizer.url}>
+                  <img className="max-h-32 inline-block" src={coorganizer.img} />
+                </a>
+              </div>
+            ))}
           </div>
         </div>
-      </footer>
-    </ScrollableAnchor>
+        <div className="rounded-[30px] bg-white p-12 md:pb-32 pb-16">
+          <div className="text-background font-normal md:text-5xl text-3xl md:mb-14 mb-7">
+            Supported by:
+          </div>
+          {/* <p className="text-center">To be announced soon!</p> */}
+          <div className="flex flex-wrap justify-between items-center">
+            {supporters.map((supporter, index) => (
+              <div key={index} className="inline-block w-48 text-center">
+                <a href={supporter.url || ''}>
+                  {supporter.img && (
+                    <img className="max-h-32 inline-block" src={supporter.img} />
+                  )}
+                  {!supporter.img && supporter.name}
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </footer>
   )
 }
 
