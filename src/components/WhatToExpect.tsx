@@ -43,22 +43,22 @@ const WhatToExpect: React.FC = () => {
             on building Ethereum-based applications
           </span>
         </Item>
-        <Item icon="/images/instagram.png">
+        {/* <Item icon="/images/instagram.png">
           <span className="text-primary">Exhibition area </span>{' '}
           <span className="text-white">
             showcasing innovative Ethereum-based solutions
           </span>
-        </Item>
+        </Item> */}
         <Item icon="/images/book-open.png">
           <span className="text-secondary">Panel discussions</span>{' '}
           <span className="text-white">
             {' '}
-            on topics such as security, scalability, and adoption
+            by industry experts
           </span>
         </Item>
         <Item icon="/images/users.png">
           <span className="text-yellow">Networking</span>{' '}
-          <span className="text-white"> opportunities with 500+ attendees</span>
+          <span className="text-white"> opportunities with other like-minded attendees</span>
         </Item>
         <Item icon="/images/smile.png">
           <span className="text-white">Exclusive access to the </span>{' '}

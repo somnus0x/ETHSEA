@@ -18,7 +18,7 @@ const faqs = [
   {
     id: 'food',
     question: 'Will there be food at the venue?',
-    answer: 'Yes, all tickets include access to lunch, and all-day snacks.',
+    answer: 'Yes, all tickets include FREE lunch and all-day snacks!',
     color: 'text-yellow',
   },
 ]
