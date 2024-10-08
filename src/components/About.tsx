@@ -7,6 +7,7 @@ const About: React.FC = () => {
       <img
         src="/images/about-adornment.png"
         className="absolute top-[-32px] left-[-96px] md:left-[-200px] opacity-15 md:opacity-100"
+        alt=""
       />
       <div className=" md:px-4 px-8 ">
         <div className="">

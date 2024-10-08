@@ -3,7 +3,7 @@ import React from 'react'
 const CallToAction: React.FC = () => {
   return (
     <div className="flex items-center">
-      <img className="text-[#FCE300] mr-2" src="/images/arrow-right.svg" />
+      <img className="text-[#FCE300] mr-2" src="/images/arrow-right.svg" alt="" />
       <a
         href="https://tickets.ethsea.org/"
         target="_blank"
@@ -11,7 +11,7 @@ const CallToAction: React.FC = () => {
       >
         Get tickets
       </a>
-      <img src="/images/call-to-action-diamond.svg" />
+      <img src="/images/call-to-action-diamond.svg" alt="" />
     </div>
   )
 }

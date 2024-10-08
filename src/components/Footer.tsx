@@ -100,7 +100,11 @@ const Footer: React.FC = () => {
             {organizers.map((organizer, index) => (
               <div className="inline-block w-64 text-center" key={index}>
                 <a target="_blank" href={organizer.url}>
-                  <img className="max-h-32 inline-block" src={organizer.img} />
+                  <img
+                    className="max-h-32 inline-block"
+                    src={organizer.img}
+                    alt={`Logo of ${organizer.name}`}
+                  />
                 </a>
               </div>
             ))}
@@ -109,7 +113,11 @@ const Footer: React.FC = () => {
             {coorganizers.map((coorganizer, index) => (
               <div className="inline-block w-48 text-center" key={index}>
                 <a href={coorganizer.url}>
-                  <img className="max-h-32 inline-block" src={coorganizer.img} />
+                  <img
+                    className="max-h-32 inline-block"
+                    src={coorganizer.img}
+                    alt={`Logo of ${coorganizer.name}`}
+                  />
                 </a>
               </div>
             ))}
@@ -125,7 +133,11 @@ const Footer: React.FC = () => {
               <div key={index} className="inline-block w-48 text-center">
                 <a href={supporter.url || ''}>
                   {supporter.img && (
-                    <img className="max-h-32 inline-block" src={supporter.img} />
+                    <img
+                      className="max-h-32 inline-block"
+                      src={supporter.img}
+                      alt={`Logo of ${supporter.name}`}
+                    />
                   )}
                   {!supporter.img && supporter.name}
                 </a>

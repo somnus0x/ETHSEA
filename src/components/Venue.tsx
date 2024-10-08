@@ -6,6 +6,7 @@ const Venue: React.FC = () => {
       <img
         src="/images/venue-adornment.png"
         className="absolute top-[-32px] left-[-96px] md:left-[-200px] opacity-15 md:opacity-100"
+        alt=""
       />
       <div className=" mx-auto md:px-4 px-8 py-4">
         <div className="md:text-5xl text-3xl text-white font-normal mb-12">

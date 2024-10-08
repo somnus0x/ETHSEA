@@ -6,8 +6,8 @@ const Hero: React.FC = () => {
     <section>
       <div className=" pt-0 md:pt-40 md:px-4 px-8 mx-auto md:py-4">
         <div className="flex justify-between lg:px-14">
-          <img className="w-2/3 lg:mr-32" src="/images/text.svg" />
-          <img className="w-1/3 " src="/images/hero-logo.png" />
+          <img className="w-2/3 lg:mr-32" src="/images/text.svg" alt="" />
+          <img className="w-1/3 " src="/images/hero-logo.png" alt="" />
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center pt-10 pb-14 md:pt-40 md:pb-14">
           <div className="flex flex-col md:flex-row md:justify-between text-center md:text-left">

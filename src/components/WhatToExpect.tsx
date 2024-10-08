@@ -13,7 +13,7 @@ const list = [
 const Item = ({ children, icon }: { children: any; icon: string }) => {
   return (
     <div className="flex items-center mb-4">
-      <img className="mr-4" src={icon} />
+      <img className="mr-4" src={icon} alt="" />
       <div className="md:text-3xl text-xl font-semibold">{children}</div>
     </div>
   )
@@ -25,6 +25,7 @@ const WhatToExpect: React.FC = () => {
       <img
         src="/images/what-to-expect-adornment.png"
         className="absolute top-[-32px] left-[-96px] md:left-[-200px] opacity-15 md:opacity-100"
+        alt=""
       />
       <div className=" mx-auto md:px-4 px-8 py-4">
         <div className="md:text-5xl text-3xl text-white font-normal mb-12">
@@ -51,18 +52,17 @@ const WhatToExpect: React.FC = () => {
         </Item> */}
         <Item icon="/images/book-open.png">
           <span className="text-secondary">Panel discussions</span>{' '}
-          <span className="text-white">
-            {' '}
-            by industry experts
-          </span>
+          <span className="text-white">by industry experts</span>
         </Item>
         <Item icon="/images/users.png">
           <span className="text-yellow">Networking</span>{' '}
-          <span className="text-white"> opportunities with other like-minded attendees</span>
+          <span className="text-white">
+            opportunities with other like-minded attendees
+          </span>
         </Item>
         <Item icon="/images/smile.png">
           <span className="text-white">Exclusive access to the </span>{' '}
-          <span className="text-primary"> Ethereum SEA Day community</span>
+          <span className="text-primary">Ethereum SEA Day community</span>
         </Item>
       </div>
     </section>
