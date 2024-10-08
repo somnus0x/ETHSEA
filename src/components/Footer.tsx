@@ -73,6 +73,13 @@ const supporters = [
     url: 'https://x.com/THBUIDL',
     img: '/supporters/thbuidl.png',
   },
+  // Media,
+  {
+    id: 'bitcoinaddict',
+    name: 'Bitcoin Addict Thailand',
+    url: 'https://bitcoinaddict.org/',
+    img: '/supporters/bitcoinaddict.png',
+  },
   // Companies
   {
     id: 'cleverse',
@@ -96,7 +103,7 @@ const Footer: React.FC = () => {
           <div className="text-background font-normal md:text-5xl text-3xl mb-14">
             Presented by:
           </div>
-          <div className="flex mb-8 justify-between items-center">
+          <div className="flex mb-8 justify-around items-center">
             {organizers.map((organizer, index) => (
               <div className="inline-block w-64 text-center" key={index}>
                 <a target="_blank" href={organizer.url}>
@@ -109,7 +116,7 @@ const Footer: React.FC = () => {
               </div>
             ))}
           </div>
-          <div className="flex md:px-48 px-8 justify-between items-center">
+          <div className="flex md:px-48 px-8 justify-around items-center">
             {coorganizers.map((coorganizer, index) => (
               <div className="inline-block w-48 text-center" key={index}>
                 <a href={coorganizer.url}>
@@ -128,9 +135,9 @@ const Footer: React.FC = () => {
             Supported by:
           </div>
           {/* <p className="text-center">To be announced soon!</p> */}
-          <div className="flex flex-wrap justify-between items-center">
+          <div className="flex flex-wrap self-center justify-around items-center px-24">
             {supporters.map((supporter, index) => (
-              <div key={index} className="inline-block w-48 text-center">
+              <div key={index} className="inline-block px-8 text-center basis-1/5">
                 <a href={supporter.url || ''}>
                   {supporter.img && (
                     <img
