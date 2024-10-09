@@ -28,6 +28,7 @@ const Speakers: React.FC = () => {
         <img
           src="/images/speaker-adornment.png"
           className="absolute top-[-32px] left-[-96px] md:left-[-200px] opacity-15 md:opacity-100"
+          alt=""
         />
         <div className="md:text-5xl text-3xl text-white font-normal mb-12">
           Speakers

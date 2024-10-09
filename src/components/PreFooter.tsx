@@ -8,6 +8,7 @@ const PreFooter: React.FC = () => {
         <img
           src="/images/faq-adornment.png"
           className="absolute top-[-32px] left-[-96px] md:left-[-200px] opacity-15 md:opacity-100"
+          alt=""
         />
         <div className="flex flex-col md:flex-row justify-around">
           <div className="w-2/3 md:text-5xl text-3xl text-white font-normal mb-12">
@@ -18,8 +19,8 @@ const PreFooter: React.FC = () => {
           </div>
         </div>
         <div className="flex justify-between md:mt-32 mt-16">
-          <img className="w-1/3 lg:mr-32" src="/images/hero-logo.png" />
-          <img className="w-2/3" src="/images/text.svg" />
+          <img className="w-1/3 lg:mr-32" src="/images/hero-logo.png" alt="" />
+          <img className="w-2/3" src="/images/text.svg" alt="" />
         </div>
       </div>
     </section>

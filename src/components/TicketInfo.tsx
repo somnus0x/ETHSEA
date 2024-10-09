@@ -17,7 +17,7 @@ const TicketInfo: React.FC = () => {
           </div>
           <div className="flex text-2xl">
             <span className="text-[#DE40BA] mr-6">Full Access</span>
-            <span className="text-background">10 USD</span>
+            <span className="text-background">5 USD</span>
           </div>
           <div style={{ borderBottom: '1px solid #DE40BA' }} className="flex pb-9 ">
             <div>
@@ -33,7 +33,7 @@ const TicketInfo: React.FC = () => {
           </div>
           <div className="flex md:text-2xl text-xl mt-14">
             <span className="text-[#DE40BA] mr-6">Full Access</span>
-            <span className="text-background">Free</span>
+            <span className="text-background">Free!</span>
           </div>
           <div className="flex pb-9 ">
             <div>

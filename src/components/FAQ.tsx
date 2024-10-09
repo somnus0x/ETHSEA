@@ -18,7 +18,7 @@ const faqs = [
   {
     id: 'food',
     question: 'Will there be food at the venue?',
-    answer: 'Yes, all tickets include access to lunch, and all-day snacks.',
+    answer: 'Yes, all tickets include FREE lunch and all-day snacks!',
     color: 'text-yellow',
   },
 ]
@@ -30,6 +30,7 @@ const FAQ: React.FC = () => {
         <img
           src="/images/faq-adornment.png"
           className="absolute top-[-32px] left-[-96px] md:left-[-200px] opacity-15 md:opacity-100"
+          alt=""
         />
         <div className="md:text-5xl text-3xl text-white font-normal mb-12">FAQ</div>
         <div className="space-y-4">
