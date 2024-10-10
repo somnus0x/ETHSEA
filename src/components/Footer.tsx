@@ -147,7 +147,7 @@ const Footer: React.FC = () => {
                 <a href={supporter.url || ''}>
                   {supporter.img && (
                     <img
-                      className="max-h-32 inline-block"
+                      className="max-h-32 mb-8 inline-block"
                       src={supporter.img}
                       alt={`Logo of ${supporter.name}`}
                     />
