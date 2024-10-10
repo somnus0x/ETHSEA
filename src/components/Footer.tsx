@@ -88,6 +88,12 @@ const supporters = [
     img: '/supporters/cleverse.png',
   },
   {
+    id: 'cdao',
+    name: 'ContributionDAO',
+    url: 'https://www.contributiondao.com/',
+    img: '/supporters/cdao.png',
+  },
+  {
     id: 'smallworld',
     name: 'Smallworld',
     url: 'https://smallworldventure.com/',
