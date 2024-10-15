@@ -16,19 +16,19 @@ const speakers = [
       Vitalik has been instrumental in developing Ethereum's technology and vision, contributing significantly to the fields of cryptocurrency and blockchain. \
       His work continues to shape the future of decentralized technologies and their applications.",
   },
-  {
-    name: 'Aya Miyaguchi',
-    menuName: 'Aya Miyaguchi',
-    title: 'Executive Director, Ethereum Foundation',
-    social: 'AyaMiyagotchi',
-    image: '/speakers/aya.jpg',
-    color: 'text-[#fed7aa]',
-    underlineColor: 'border-[#fed7aa]',
-    description:
-      "Aya Miyaguchi is the Executive Director of the Ethereum Foundation, a non-profit organization dedicated to supporting the Ethereum ecosystem. \
-      With her leadership, she has been instrumental in driving the growth and development of Ethereum globally. \
-      Aya's work focuses on fostering education, research, and community initiatives that contribute to the advancement of decentralized technologies and their positive impact on society.",
-  },
+  // {
+  //   name: 'Aya Miyaguchi',
+  //   menuName: 'Aya Miyaguchi',
+  //   title: 'Executive Director, Ethereum Foundation',
+  //   social: 'AyaMiyagotchi',
+  //   image: '/speakers/aya.jpg',
+  //   color: 'text-[#fed7aa]',
+  //   underlineColor: 'border-[#fed7aa]',
+  //   description:
+  //     "Aya Miyaguchi is the Executive Director of the Ethereum Foundation, a non-profit organization dedicated to supporting the Ethereum ecosystem. \
+  //     With her leadership, she has been instrumental in driving the growth and development of Ethereum globally. \
+  //     Aya's work focuses on fostering education, research, and community initiatives that contribute to the advancement of decentralized technologies and their positive impact on society.",
+  // },
   {
     name: 'Sheng Yong Kim',
     menuName: 'Sheng Yong Kim',
