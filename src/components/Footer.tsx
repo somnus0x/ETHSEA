@@ -140,7 +140,7 @@ const Footer: React.FC = () => {
               </div>
             ))}
           </div>
-          <div className="flex flex-wrap md:px-48 px-8 self-center justify-around items-center">
+          <div className="md:flex md:flex-wrap md:px-48 px-8 md:self-center md:justify-around md:items-center">
             {coorganizers.map((coorganizer, index) => (
               <div
                 className={`inline-block w-48 text-center ${coorganizer.extraClasses}`}
@@ -157,20 +157,20 @@ const Footer: React.FC = () => {
             ))}
           </div>
         </div>
-        <div className="rounded-[30px] bg-white p-12 md:pb-32 pb-16">
+        <div className="rounded-[30px] bg-white p-12">
           <div className="text-background font-normal md:text-5xl text-3xl md:mb-14 mb-7">
             Supported by:
           </div>
-          <div className="flex flex-wrap self-center justify-around items-center px-24">
+          <div className="md:flex md:flex-wrap self-center justify-around items-center md:px-24">
             {supporters.map((supporter, index) => (
               <div
-                className={`inline-block px-8 text-center md:basis-1/4 ${supporter.extraClasses}`}
+                className={`md:inline-block md:px-8 text-center md:basis-1/4 ${supporter.extraClasses}`}
                 key={index}
               >
                 <a href={supporter.url || ''}>
                   {supporter.img && (
                     <img
-                      className="max-h-16 md:max-h-32 mb-8 inline-block"
+                      className="max-h-16 md:max-h-24 mb-8 inline-block"
                       src={supporter.img}
                       alt={`Logo of ${supporter.name}`}
                     />
