@@ -38,8 +38,7 @@ const speakers = [
     color: 'text-[#fde68a]',
     underlineColor: 'border-[#fde68a]',
     description:
-      "Sheng Yong Kim is a Product Manager at CoinGecko, one of the world's largest cryptocurrency data aggregators. \
-      With his expertise in the crypto market and product development, Sheng Yong plays a crucial role in enhancing CoinGecko's offerings and user experience.",
+      "Sheng Yong Kim is a Product Manager at CoinGecko, one of the world's largest cryptocurrency data aggregators.",
   },
   {
     name: 'TY',
@@ -97,9 +96,8 @@ const speakers = [
     color: 'text-[#ddd6fe]',
     underlineColor: 'border-[#ddd6fe]',
     description:
-      "Teeramet is an R&D Engineer at Privacy & Scaling Explorations (PSE), a research team within the Ethereum Foundation. \
-      His work focuses on advancing privacy and scaling solutions for Ethereum. Jern contributes to cutting-edge research and development \
-      in areas such as zero-knowledge proofs and other technologies that aim to enhance Ethereum's capabilities and user experience.",
+      "Jern's interests span programmable cryptography inluding zero knowledge, zkRegex, and lately on developing framework \
+      to enable people to build on multi-party computation more systematically via privacy-preserving statistics.",
   },
   // {
   //   name: '',
