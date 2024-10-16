@@ -107,7 +107,8 @@ const speakers = [
   //   title: '',
   //   social: null,
   //   image: '/speakers/',
-  //   color: 'text-yellow',
+  //   color: '',
+  //   underlineColor: '',
   //   description: '',
   // },
 ]
@@ -148,6 +149,8 @@ const Speakers: React.FC = () => {
                 <a
                   className="flex items-center"
                   href={`https://twitter.com/${speakers[speakerIndex].social}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img src="/images/twitter.svg" alt="Twitter" />
                   <div className="font-semibold text-white text-2xl">
