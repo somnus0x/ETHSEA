@@ -73,7 +73,7 @@ const speakers = [
     description:
       'Nattapon (Tot) Nimakul is a prominent figure in the Thai blockchain and cryptocurrency community.',
     social: null,
-    image: '/speakers/tot.jpg',
+    image: '/speakers/tot.webp',
     color: 'text-[#a5f3fc]',
     underlineColor: 'border-[#a5f3fc]',
   },
