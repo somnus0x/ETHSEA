@@ -124,7 +124,7 @@ const Footer: React.FC = () => {
           <div className="text-background font-normal md:text-5xl text-3xl mb-14">
             Presented by:
           </div>
-          <div className="flex mb-8 justify-around items-center">
+          <div className="flex flex-wrap px-8 self-center justify-around items-center">
             {organizers.map((organizer, index) => (
               <div
                 className={`inline-block w-64 text-center ${organizer.extraClasses}`}
@@ -140,7 +140,7 @@ const Footer: React.FC = () => {
               </div>
             ))}
           </div>
-          <div className="flex md:px-48 px-8 justify-around items-center">
+          <div className="flex flex-wrap md:px-48 px-8 self-center justify-around items-center">
             {coorganizers.map((coorganizer, index) => (
               <div
                 className={`inline-block w-48 text-center ${coorganizer.extraClasses}`}
@@ -161,17 +161,16 @@ const Footer: React.FC = () => {
           <div className="text-background font-normal md:text-5xl text-3xl md:mb-14 mb-7">
             Supported by:
           </div>
-          {/* <p className="text-center">To be announced soon!</p> */}
           <div className="flex flex-wrap self-center justify-around items-center px-24">
             {supporters.map((supporter, index) => (
               <div
-                className={`inline-block px-8 text-center basis-1/4 ${supporter.extraClasses}`}
+                className={`inline-block px-8 text-center md:basis-1/4 ${supporter.extraClasses}`}
                 key={index}
               >
                 <a href={supporter.url || ''}>
                   {supporter.img && (
                     <img
-                      className="max-h-32 mb-8 inline-block"
+                      className="max-h-16 md:max-h-32 mb-8 inline-block"
                       src={supporter.img}
                       alt={`Logo of ${supporter.name}`}
                     />
