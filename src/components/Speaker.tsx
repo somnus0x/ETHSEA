@@ -45,9 +45,9 @@ const speakers = [
     menuName: 'TY',
     title: 'Content Writer, Etherscan',
     description:
-      'TY is a Content Writer at Etherscan, the leading blockchain explorer and analytics platform for Ethereum. \
-      With his expertise in blockchain technology and content creation, TY plays a crucial role in making complex blockchain concepts accessible to a wider audience. \
-      His work contributes to enhancing user understanding and engagement with Ethereum and its ecosystem.',
+      'TY is a Content Writer at Etherscan, a block explorer and analytics platform for the Ethereum blockchain. \
+      With his passion for Ethereum and content creation, TY makes blockchain concepts more accessible to a wider audience, \
+      enhancing user understanding and engagement with the Ethereum ecosystem.',
     social: null,
     image: '/speakers/ty.jpeg',
     color: 'text-[#d9f99d]',
