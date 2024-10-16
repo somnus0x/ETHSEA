@@ -79,6 +79,16 @@ const speakers = [
       'Nattapon (Tot) Nimakul is a prominent figure in the Thai blockchain and cryptocurrency community.',
   },
   {
+    name: 'Sitthavee (Sun) Teerakulchon',
+    menuName: 'Sun Sitthavee',
+    title: 'Developer Expert, Chainlink',
+    social: 'sitthaveet',
+    image: '/speakers/sun.jpeg',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+    description: 'A man who enjoys coding and cryptography.',
+  },
+  {
     name: 'Teeramet (Jern) Kunpittaya',
     menuName: 'Jern Kunpittaya',
     title: 'R&D Engineer, Privacy & Scaling Explorations (PSE), Ethereum Foundation',
