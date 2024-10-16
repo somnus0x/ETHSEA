@@ -7,107 +7,107 @@ const speakers = [
     name: 'Vitalik Buterin',
     menuName: 'Vitalik Buterin',
     title: 'Co-founder, Ethereum',
-    social: 'VitalikButerin',
-    image: '/speakers/vitalik.jpg',
-    color: 'text-[#fecaca]',
-    underlineColor: 'border-[#fecaca]',
     description:
       "Vitalik Buterin is the co-founder of Ethereum, a decentralized platform that runs smart contracts. \
       Vitalik has been instrumental in developing Ethereum's technology and vision, contributing significantly to the fields of cryptocurrency and blockchain. \
       His work continues to shape the future of decentralized technologies and their applications.",
+    social: 'VitalikButerin',
+    image: '/speakers/vitalik.jpg',
+    color: 'text-[#fecaca]',
+    underlineColor: 'border-[#fecaca]',
   },
   // {
   //   name: 'Aya Miyaguchi',
   //   menuName: 'Aya Miyaguchi',
   //   title: 'Executive Director, Ethereum Foundation',
-  //   social: 'AyaMiyagotchi',
-  //   image: '/speakers/aya.jpg',
-  //   color: 'text-[#fed7aa]',
-  //   underlineColor: 'border-[#fed7aa]',
   //   description:
   //     "Aya Miyaguchi is the Executive Director of the Ethereum Foundation, a non-profit organization dedicated to supporting the Ethereum ecosystem. \
   //     With her leadership, she has been instrumental in driving the growth and development of Ethereum globally. \
   //     Aya's work focuses on fostering education, research, and community initiatives that contribute to the advancement of decentralized technologies and their positive impact on society.",
+  //   social: 'AyaMiyagotchi',
+  //   image: '/speakers/aya.jpg',
+  //   color: 'text-[#fed7aa]',
+  //   underlineColor: 'border-[#fed7aa]',
   // },
   {
     name: 'Sheng Yong Kim',
     menuName: 'Sheng Yong Kim',
     title: 'Product Manager, CoinGecko',
+    description:
+      "Sheng Yong Kim is a Product Manager at CoinGecko, one of the world's largest cryptocurrency data aggregators.",
     social: null,
     image: '/speakers/sykim.jpeg',
     color: 'text-[#fde68a]',
     underlineColor: 'border-[#fde68a]',
-    description:
-      "Sheng Yong Kim is a Product Manager at CoinGecko, one of the world's largest cryptocurrency data aggregators.",
   },
   {
     name: 'TY',
     menuName: 'TY',
     title: 'Content Writer, Etherscan',
-    social: null,
-    image: '/speakers/ty.jpeg',
-    color: 'text-[#d9f99d]',
-    underlineColor: 'border-[#d9f99d]',
     description:
       'TY is a Content Writer at Etherscan, the leading blockchain explorer and analytics platform for Ethereum. \
       With his expertise in blockchain technology and content creation, TY plays a crucial role in making complex blockchain concepts accessible to a wider audience. \
       His work contributes to enhancing user understanding and engagement with Ethereum and its ecosystem.',
+    social: null,
+    image: '/speakers/ty.jpeg',
+    color: 'text-[#d9f99d]',
+    underlineColor: 'border-[#d9f99d]',
   },
   {
     name: 'Varit Ruangsiri',
     menuName: 'Varit Ruangsiri',
     title: 'Chief Executive Officer & Co-Founder, Curia Lab',
-    social: 'v3eth',
-    image: '/speakers/varit.png',
-    color: 'text-[#bbf7d0]',
-    underlineColor: 'border-[#bbf7d0]',
     description:
       'Varit Ruangsiri, CEO & Co-founder of Curia Lab, has contributed to decentralized governance in DAOs such as Optimism Collective, SafeDAO, and ArbitrumDAO, \
       focusing on strategic project evaluation and data-driven governance. At Curia Lab, he supports the development of specialized tools and insights to improve \
       transparency and innovation in DAO governance.',
+    social: 'v3eth',
+    image: '/speakers/varit.png',
+    color: 'text-[#bbf7d0]',
+    underlineColor: 'border-[#bbf7d0]',
   },
   {
     name: 'Nattapon (Tot) Nimakul',
     menuName: 'Tot Nattapon',
     title: '',
+    description:
+      'Nattapon (Tot) Nimakul is a prominent figure in the Thai blockchain and cryptocurrency community.',
     social: null,
     image: '/speakers/tot.jpg',
     color: 'text-[#a5f3fc]',
     underlineColor: 'border-[#a5f3fc]',
-    description:
-      'Nattapon (Tot) Nimakul is a prominent figure in the Thai blockchain and cryptocurrency community.',
   },
   {
     name: 'Sitthavee (Sun) Teerakulchon',
     menuName: 'Sun Sitthavee',
     title: 'Developer Expert, Chainlink',
+    description: 'A man who enjoys coding and cryptography.',
     social: 'sitthaveet',
     image: '/speakers/sun.jpeg',
     color: 'text-[#fbcfe8]',
     underlineColor: 'border-[#fbcfe8]',
-    description: 'A man who enjoys coding and cryptography.',
   },
   {
     name: 'Teeramet (Jern) Kunpittaya',
     menuName: 'Jern Kunpittaya',
     title: 'R&D Engineer, Privacy & Scaling Explorations (PSE), Ethereum Foundation',
+    description:
+    "Jern's interests span programmable cryptography inluding zero knowledge, zkRegex, and lately on developing framework \
+    to enable people to build on multi-party computation more systematically via privacy-preserving statistics.",
     social: 'jernkun',
     image: '/speakers/jern.jpeg',
     color: 'text-[#ddd6fe]',
     underlineColor: 'border-[#ddd6fe]',
-    description:
-      "Jern's interests span programmable cryptography inluding zero knowledge, zkRegex, and lately on developing framework \
-      to enable people to build on multi-party computation more systematically via privacy-preserving statistics.",
   },
   // {
   //   name: '',
   //   menuName: '',
   //   title: '',
   //   social: null,
+  //   description: '',
   //   image: '/speakers/',
   //   color: '',
   //   underlineColor: '',
-  //   description: '',
   // },
 ]
 const Speakers: React.FC = () => {
