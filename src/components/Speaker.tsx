@@ -92,8 +92,8 @@ const speakers = [
     menuName: 'Jern Kunpittaya',
     title: 'R&D Engineer, Privacy & Scaling Explorations (PSE), Ethereum Foundation',
     description:
-    "Jern's interests span programmable cryptography inluding zero knowledge, zkRegex, and lately on developing framework \
-    to enable people to build on multi-party computation more systematically via privacy-preserving statistics.",
+      "Jern's interests span programmable cryptography inluding zero knowledge, zkRegex, and lately on developing framework \
+      to enable people to build on multi-party computation more systematically via privacy-preserving statistics.",
     social: 'jernkun',
     image: '/speakers/jern.jpeg',
     color: 'text-[#ddd6fe]',

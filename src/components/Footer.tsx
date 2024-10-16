@@ -6,24 +6,28 @@ const organizers = [
     name: 'EthPadThai',
     url: 'https://ethpadthai.org',
     img: '/organizers/ethpadthai.jpeg',
+    extraClasses: '',
   },
   {
     id: 'ethereumsingapore',
     name: 'EthereumSingapore',
     url: 'https://www.ethereumsingapore.com',
     img: '/organizers/ethsg.png',
+    extraClasses: '',
   },
   {
     id: 'ethkl',
     name: 'ETHKL',
     url: 'https://www.ethkl.org/',
     img: '/organizers/ETHKL.png',
+    extraClasses: '',
   },
   {
     id: 'eth63',
     name: 'ETH63',
     url: 'https://www.facebook.com/eth63.ph',
     img: '/organizers/ETH63.png',
+    extraClasses: '',
   },
 ]
 const coorganizers = [
@@ -32,24 +36,28 @@ const coorganizers = [
     name: 'Web3 Saigon',
     url: 'https://x.com/Web3Saigon',
     img: '/organizers/web3saigon.png',
+    extraClasses: '',
   },
   {
     id: 'ethereumindonesia',
     name: 'Ethereum Indonesia',
     url: 'https://x.com/eth_indo',
     img: '/organizers/ethindonesia.jpeg',
+    extraClasses: '',
   },
   {
     id: 'web3together',
     name: 'Web3 Together',
     url: 'https://www.facebook.com/Web3Together/',
     img: '/organizers/web3together.png',
+    extraClasses: '',
   },
   {
     id: 'pagoda',
     name: 'Pagoda',
     url: 'https://pagoda.wtf',
     img: '/organizers/pagoda.png',
+    extraClasses: '',
   },
 ]
 
@@ -60,18 +68,21 @@ const supporters = [
     name: 'Devcon',
     url: 'https://devcon.org',
     img: '/supporters/devcon.png',
+    extraClasses: '',
   },
   {
     id: 'cubs',
     name: 'Chulalongkorn University Blockchain Society',
     url: 'https://www.instagram.com/cubs.chula',
     img: '/supporters/cubs.png',
+    extraClasses: '',
   },
   {
     id: 'thbuidl',
     name: 'THBUIDL',
     url: 'https://x.com/THBUIDL',
     img: '/supporters/thbuidl.png',
+    extraClasses: '',
   },
   // Media,
   {
@@ -79,6 +90,7 @@ const supporters = [
     name: 'Bitcoin Addict Thailand',
     url: 'https://bitcoinaddict.org/',
     img: '/supporters/bitcoinaddict.png',
+    extraClasses: '',
   },
   // Companies
   {
@@ -86,18 +98,21 @@ const supporters = [
     name: 'Cleverse',
     url: 'https://cleverse.com',
     img: '/supporters/cleverse.png',
+    extraClasses: '',
   },
   {
     id: 'cdao',
     name: 'ContributionDAO',
     url: 'https://www.contributiondao.com/',
     img: '/supporters/cdao.png',
+    extraClasses: 'px-2',
   },
   {
     id: 'smallworld',
     name: 'Smallworld',
     url: 'https://smallworldventure.com/',
     img: '/supporters/smallworld.png',
+    extraClasses: 'pb-6',
   },
 ]
 
@@ -111,7 +126,10 @@ const Footer: React.FC = () => {
           </div>
           <div className="flex mb-8 justify-around items-center">
             {organizers.map((organizer, index) => (
-              <div className="inline-block w-64 text-center" key={index}>
+              <div
+                className={`inline-block w-64 text-center ${organizer.extraClasses}`}
+                key={index}
+              >
                 <a target="_blank" href={organizer.url}>
                   <img
                     className="max-h-32 inline-block"
@@ -124,7 +142,10 @@ const Footer: React.FC = () => {
           </div>
           <div className="flex md:px-48 px-8 justify-around items-center">
             {coorganizers.map((coorganizer, index) => (
-              <div className="inline-block w-48 text-center" key={index}>
+              <div
+                className={`inline-block w-48 text-center ${coorganizer.extraClasses}`}
+                key={index}
+              >
                 <a href={coorganizer.url}>
                   <img
                     className="max-h-32 inline-block"
@@ -143,7 +164,10 @@ const Footer: React.FC = () => {
           {/* <p className="text-center">To be announced soon!</p> */}
           <div className="flex flex-wrap self-center justify-around items-center px-24">
             {supporters.map((supporter, index) => (
-              <div key={index} className="inline-block px-8 text-center basis-1/5">
+              <div
+                className={`inline-block px-8 text-center basis-1/4 ${supporter.extraClasses}`}
+                key={index}
+              >
                 <a href={supporter.url || ''}>
                   {supporter.img && (
                     <img
