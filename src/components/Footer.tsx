@@ -127,7 +127,7 @@ const Footer: React.FC = () => {
           <div className="md:flex md:flex-wrap px-8 md:self-center md:justify-around md:items-center">
             {organizers.map((organizer, index) => (
               <div
-                className={`md:inline-block max-w-64 text-center ${organizer.extraClasses}`}
+                className={`md:inline-block max-w-64 mb-8 text-center ${organizer.extraClasses}`}
                 key={index}
               >
                 <a target="_blank" href={organizer.url}>
@@ -143,7 +143,7 @@ const Footer: React.FC = () => {
           <div className="md:flex md:flex-wrap md:px-48 px-8 md:self-center md:justify-around md:items-center">
             {coorganizers.map((coorganizer, index) => (
               <div
-                className={`inline-block w-48 text-center ${coorganizer.extraClasses}`}
+                className={`inline-block w-48 mb-8 text-center ${coorganizer.extraClasses}`}
                 key={index}
               >
                 <a href={coorganizer.url}>
