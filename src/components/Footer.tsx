@@ -82,7 +82,7 @@ const supporters = [
     name: 'THBUIDL',
     url: 'https://x.com/THBUIDL',
     img: '/supporters/thbuidl.png',
-    extraClasses: '',
+    extraClasses: 'px-4',
   },
   // Media,
   {
@@ -105,14 +105,14 @@ const supporters = [
     name: 'ContributionDAO',
     url: 'https://www.contributiondao.com/',
     img: '/supporters/cdao.png',
-    extraClasses: 'px-2',
+    extraClasses: 'md:px-2 px-2',
   },
   {
     id: 'smallworld',
     name: 'Smallworld',
     url: 'https://smallworldventure.com/',
     img: '/supporters/smallworld.png',
-    extraClasses: 'pb-6',
+    extraClasses: 'pb-6 -mt-4 md:mt-0',
   },
 ]
 
@@ -124,10 +124,10 @@ const Footer: React.FC = () => {
           <div className="text-background font-normal md:text-5xl text-3xl mb-14">
             Presented by:
           </div>
-          <div className="flex flex-wrap px-8 self-center justify-around items-center">
+          <div className="md:flex md:flex-wrap px-8 md:self-center md:justify-around md:items-center">
             {organizers.map((organizer, index) => (
               <div
-                className={`inline-block w-64 text-center ${organizer.extraClasses}`}
+                className={`md:inline-block max-w-64 text-center ${organizer.extraClasses}`}
                 key={index}
               >
                 <a target="_blank" href={organizer.url}>
@@ -170,7 +170,7 @@ const Footer: React.FC = () => {
                 <a href={supporter.url || ''}>
                   {supporter.img && (
                     <img
-                      className="max-h-16 md:max-h-24 mb-8 inline-block"
+                      className="max-h-16 md:max-h-24 mb-12 md:mb-6 inline-block"
                       src={supporter.img}
                       alt={`Logo of ${supporter.name}`}
                     />
