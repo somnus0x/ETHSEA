@@ -94,6 +94,13 @@ const supporters = [
   },
   // Companies
   {
+    id: 'kyber',
+    name: 'Kyber',
+    url: 'https://kyber.network',
+    img: '/supporters/kyber.png',
+    extraClasses: 'md:px-16',
+  },
+  {
     id: 'cleverse',
     name: 'Cleverse',
     url: 'https://cleverse.com',
