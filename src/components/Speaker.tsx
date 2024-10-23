@@ -69,7 +69,7 @@ const speakers = [
   {
     name: 'Nattapon (Tot) Nimakul',
     menuName: 'Tot Nattapon',
-    title: '',
+    title: 'Senior Blockchain Product Strategist, KBTG',
     description:
       'Nattapon (Tot) Nimakul is a prominent figure in the Thai blockchain and cryptocurrency community.',
     social: null,
@@ -78,8 +78,8 @@ const speakers = [
     underlineColor: 'border-[#a5f3fc]',
   },
   {
-    name: 'Sitthavee (Sun) Teerakulchon',
-    menuName: 'Sun Sitthavee',
+    name: 'Sitthavee (Son) Teerakulchon',
+    menuName: 'Son Sitthavee',
     title: 'Developer Expert, Chainlink',
     description: 'A man who enjoys coding and cryptography.',
     social: 'sitthaveet',
