@@ -1,6 +1,16 @@
 import React, { useState, useEffect, useMemo } from 'react'
 
 // Refer to https://tailwindcss.com/docs/customizing-colors for the color palette
+interface Speaker {
+  name: string
+  menuName: string
+  title: string
+  description: string
+  social: string | null
+  image: string
+  color: string
+  underlineColor: string
+}
 
 const speakers = [
   {
@@ -124,8 +134,8 @@ const speakers = [
 ]
 const Speakers: React.FC = () => {
   const [speakerIndex, setSpeakerIndex] = useState(0)
-  const speaker = useMemo(() => {
-    return speaker
+  const speaker: Speaker = useMemo(() => {
+    return speakers[speakerIndex]
   }, [speakerIndex, setSpeakerIndex])
 
   return (
