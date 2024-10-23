@@ -99,16 +99,28 @@ const speakers = [
     color: 'text-[#ddd6fe]',
     underlineColor: 'border-[#ddd6fe]',
   },
-  // {
-  //   name: '',
-  //   menuName: '',
-  //   title: '',
-  //   social: null,
-  //   description: '',
-  //   image: '/speakers/',
-  //   color: '',
-  //   underlineColor: '',
-  // },
+  {
+    name: 'Harith Kamarul',
+    menuName: 'Harith Kamarul',
+    title: 'Team Mascot, ETHKL',
+    social: 'harithk17',
+    description:
+      'Harith has been organising ETHKL, a volunteer-driven community focused on Ethereum and related technologies, since 2018. In his day job, he manages product at Etherscan.',
+    image: '/speakers/harith.png',
+    color: 'text-[#fecaca]',
+    underlineColor: 'border-[#fecaca]',
+  },
+  {
+    name: 'Hubert Kotliński',
+    menuName: 'Hubert Kotliński',
+    title: 'Business Development (BD), L2BEAT',
+    social: 'hubkotl',
+    description:
+      'Hubert Kotliński is the author of the first engineering thesis on L2s in Poland, focused on holding rollups accountable with L2BEAT and promoting Ethereum values and possibilities across Eastern Europe.',
+    image: '/speakers/hubert.jpg',
+    color: 'text-[#fed7aa]',
+    underlineColor: 'border-[#fed7aa]',
+  },
 ]
 const Speakers: React.FC = () => {
   const [speakerIndex, setSpeakerIndex] = useState(0)
