@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useMemo } from 'react'
 
 // Refer to https://tailwindcss.com/docs/customizing-colors for the color palette
 
@@ -124,6 +124,10 @@ const speakers = [
 ]
 const Speakers: React.FC = () => {
   const [speakerIndex, setSpeakerIndex] = useState(0)
+  const speaker = useMemo(() => {
+    return speaker
+  }, [speakerIndex, setSpeakerIndex])
+
   return (
     <section id="speakers" className="relative pb-28">
       <div className=" mx-auto md:px-4 px-8">
@@ -144,27 +148,25 @@ const Speakers: React.FC = () => {
           */}
           <div className="w-2/3">
             <img
-              src={speakers[speakerIndex].image}
+              src={speaker.image}
               className="rounded-3xl w-[125px] md:w-[250px] md:h-[250px] h-[125px]"
-              alt={`Photo of ${speakers[speakerIndex].name}`}
+              alt={`Photo of ${speaker.name}`}
             />
             <div className="mt-8 font-light md:text-2xl text-xl md:leading-relaxed">
-              <span className="text-yellow">{speakers[speakerIndex].title}</span>{' '}
-              <span className="text-white">
-                {speakers[speakerIndex].description}
-              </span>
+              <span className="text-yellow">{speaker.title}</span>{' '}
+              <span className="text-white">{speaker.description}</span>
             </div>
-            {speakers[speakerIndex].social && (
+            {speaker.social && (
               <div className="mt-4">
                 <a
                   className="flex items-center"
-                  href={`https://twitter.com/${speakers[speakerIndex].social}`}
+                  href={`https://twitter.com/${speaker.social}`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img src="/images/twitter.svg" alt="Twitter" />
                   <div className="font-semibold text-white text-2xl">
-                    {speakers[speakerIndex].social}
+                    {speaker.social}
                   </div>
                 </a>
               </div>
