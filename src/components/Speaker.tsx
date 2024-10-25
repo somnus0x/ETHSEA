@@ -131,6 +131,27 @@ const speakers = [
     color: 'text-[#fed7aa]',
     underlineColor: 'border-[#fed7aa]',
   },
+  {
+    name: 'Arin Trongsantipong',
+    menuName: 'Arin Trongsantipong',
+    title: 'Head of Product, Alpha Innovations Lab',
+    social: '',
+    description: '',
+    image: '/speakers/arin.jpeg',
+    color: 'text-[#fde68a]',
+    underlineColor: 'border-[#fde68a]',
+  },
+  {
+    name: 'Rati Montreewat',
+    menuName: 'Rati Montreewat',
+    title: 'Web3 Indie Maker building redprint.ninja',
+    social: '',
+    description:
+      'Rati has been contributing to Ethereum & l2 ecosystem, including Optimism and Starknet, touching on technical development and dev-focused educational content. His interest is open-source and decentralized technology.',
+    image: '/speakers/rati.jpeg',
+    color: 'text-[#d9f99d]',
+    underlineColor: 'border-[#d9f99d]',
+  },
 ]
 const Speakers: React.FC = () => {
   const [speakerIndex, setSpeakerIndex] = useState(0)
