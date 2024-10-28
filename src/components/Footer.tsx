@@ -92,6 +92,13 @@ const supporters = [
     img: '/supporters/bitcoinaddict.png',
     extraClasses: '',
   },
+  {
+    id: 'techsauce',
+    name: 'Techsauce',
+    url: 'https://techsauce.co/',
+    img: '/supporters/techsauce.png',
+    extraClasses: '',
+  },
   // Companies
   {
     id: 'kyber',
