@@ -136,7 +136,8 @@ const speakers = [
     menuName: 'Arin Trongsantipong',
     title: 'Head of Product, Alpha Innovations Lab',
     social: '',
-    description: '',
+    description:
+      'Arin has been building web3 products since DeFi Summer 2020, focusing on creating user-centric products. With a passion for combining intuitive design and technology, he strives to improve the web3 experience for all users.',
     image: '/speakers/arin.jpeg',
     color: 'text-[#fde68a]',
     underlineColor: 'border-[#fde68a]',
@@ -151,6 +152,17 @@ const speakers = [
     image: '/speakers/rati.jpeg',
     color: 'text-[#d9f99d]',
     underlineColor: 'border-[#d9f99d]',
+  },
+  {
+    name: 'Chun Rapeepat',
+    menuName: 'Chun Rapeepat',
+    title: 'Indie Hacker',
+    social: 'chunrapeepat',
+    description:
+      'Indie hacker, creator of learnalgorithm.com and Uniswap Calculator (acquired, now poolfish.xyz).',
+    image: '/speakers/chun.jpeg',
+    color: 'text-[#bbf7d0]',
+    underlineColor: 'border-[#bbf7d0]',
   },
 ]
 const Speakers: React.FC = () => {
