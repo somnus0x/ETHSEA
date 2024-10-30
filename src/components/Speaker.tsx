@@ -146,7 +146,7 @@ const speakers = [
     name: 'Rati Montreewat',
     menuName: 'Rati Montreewat',
     title: 'Web3 Indie Maker building redprint.ninja',
-    social: '',
+    social: 'RATi_MOn',
     description:
       'Rati has been contributing to Ethereum & l2 ecosystem, including Optimism and Starknet, touching on technical development and dev-focused educational content. His interest is open-source and decentralized technology.',
     image: '/speakers/rati.jpeg',
