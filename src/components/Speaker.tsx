@@ -164,6 +164,27 @@ const speakers = [
     color: 'text-[#bbf7d0]',
     underlineColor: 'border-[#bbf7d0]',
   },
+  {
+    name: 'Che',
+    menuName: 'Che',
+    title: 'Software Developer, Nethermind',
+    social: '',
+    description: '',
+    image: '/speakers/che.jpeg',
+    color: 'text-[#a5f3fc]',
+    underlineColor: 'border-[#a5f3fc]',
+  },
+  {
+    name: 'Lisa Tan',
+    menuName: 'Lisa Tan',
+    title: 'Founder & CEO, Economics Design',
+    social: '',
+    description:
+      'Lisa JY Tan is the founder of Economics Design and a leading economist, educator, and keynote speaker in Web3 and DeFi. She has presented at top events like ETHDenver and Token2049, lectured at universities in the U.S., U.K., and Switzerland, and advised global regulators on blockchain economics. Her best-selling book, Economics and Math of Token Engineering and DeFi, is widely used as a university textbook',
+    image: '/speakers/lisa.jpeg',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
 ]
 const Speakers: React.FC = () => {
   const [speakerIndex, setSpeakerIndex] = useState(0)
