@@ -185,6 +185,17 @@ const speakers = [
     color: 'text-[#fbcfe8]',
     underlineColor: 'border-[#fbcfe8]',
   },
+  {
+    name: 'Cathie So',
+    menuName: 'Cathie So',
+    title: 'Chief Scientist, ORA',
+    social: '',
+    description:
+      'Dr. Cathie So dove into Web3 as the founding tutor of Zero-Knowledge University, onboarding numerous developers into ZK. With a background as a researcher at the Ethereum Foundation and a wealth of experience speaking at various conferences on zkML, she now serves as the Chief Scientist at ORA.',
+    image: '/speakers/cathie.PNG',
+    color: 'text-[#ddd6fe]',
+    underlineColor: 'border-[#ddd6fe]',
+  },
 ]
 const Speakers: React.FC = () => {
   const [speakerIndex, setSpeakerIndex] = useState(0)

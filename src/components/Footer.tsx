@@ -71,6 +71,13 @@ const supporters = [
     extraClasses: '',
   },
   {
+    id: 'depa',
+    name: 'DEPA',
+    url: 'https://www.depa.or.th/th/home',
+    img: '/supporters/depa.png',
+    extraClasses: '',
+  },
+  {
     id: 'cubs',
     name: 'Chulalongkorn University Blockchain Society',
     url: 'https://www.instagram.com/cubs.chula',
