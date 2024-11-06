@@ -196,6 +196,126 @@ const speakers = [
     color: 'text-[#ddd6fe]',
     underlineColor: 'border-[#ddd6fe]',
   },
+  {
+    name: 'Muhammad Amirul Ashraf',
+    menuName: 'Muhammad Ashraf',
+    title: 'Ethereum Core Dev (.net), Nethermind',
+    social: 'asdacap',
+    description:
+      'Muhammad Amirul Ashraf Mohamad Fauzi is an Ethereum core developer at Nethermind, contributing to the development of the Nethermind Ethereum client—an implementation that allows nodes to read and verify blocks on the Ethereum blockchain. His work focuses on enhancing stability and performance, ensuring the security and reliability of the network.',
+    image: '/speakers/amirul.png',
+    color: 'text-[#fecaca]',
+    underlineColor: 'border-[#fecaca]',
+  },
+  {
+    name: 'Kim Trong Nguyen',
+    menuName: 'Kim Trong Nguyen',
+    title: 'Head of Research, Kyber Network',
+    social: '',
+    description:
+      'Kim Trong Nguyen is Head of Research at Kyber Network, where he leads Kyber’s research efforts in applied cryptography, blockchain scalability and new decentralized finance solutions to market-fit products. He holds a Ph.D in Applied Mathematics focus on Machine Learning as well as a Master degree in Information Security, and is a blockchain expert with in-depth experience in cryptography, machine learning and IT security.',
+    image: '/speakers/kim.jpg',
+    color: 'text-[#fed7aa]',
+    underlineColor: 'border-[#fed7aa]',
+  },
+  {
+    name: 'Guo Liu',
+    menuName: 'Guo Liu',
+    title: 'Co-Founder/CTO, Matters Lab',
+    social: '_GuoLiu',
+    description:
+      'Guo Liu is the Co-Founder and CTO of Matters Lab, dedicated to building a decentralized social ecosystem that transforms the creator economy— digital spaces that are fair, financially sustainable and censorship-resilient.',
+    image: '/speakers/guo.jpg',
+    color: 'text-[#fde68a]',
+    underlineColor: 'border-[#fde68a]',
+  },
+  {
+    name: 'Vectorized',
+    menuName: 'Vectorized',
+    title: '',
+    social: 'optimizoor',
+    description:
+      'Vectorized (a.k.a. optimizoor) maintains open-source Solidity libraries used across the EVM ecosystem.',
+    image: '/speakers/vectorized.jpg',
+    color: 'text-[#d9f99d]',
+    underlineColor: 'border-[#d9f99d]',
+  },
+  {
+    name: 'Mike Phul',
+    menuName: 'Mike Phul',
+    title: 'Staff Software Engineer, Nansen',
+    social: 'mikephul',
+    description:
+      'Mike is currently a Staff Software Engineer at Nansen, an on-chain analytics platform. He previously founded Apeboard, a multichain DeFi portfolio tracker that Nansen acquired in 2022. Active in the crypto industry since 2018, Mike is passionate about DeFi, mathematics, computer science, and, of course, a good crypto meme.',
+    image: '/speakers/mike.jpg',
+    color: 'text-[#bbf7d0]',
+    underlineColor: 'border-[#bbf7d0]',
+  },
+  {
+    name: 'Billy',
+    menuName: 'Billy',
+    title: 'Co-Founder, Catalyzt Tech',
+    social: 'billy191',
+    description:
+      'Blockchain enthusiast and just a student who loves building! 💪 Co-founder of Catalyzt Tech, creating the future on Optimism with RetroPGF Hub, impact calculators, and more. Shaking things up in crypto and beyond!',
+    image: '/speakers/billy.jpg',
+    color: 'text-[#a5f3fc]',
+    underlineColor: 'border-[#a5f3fc]',
+  },
+  {
+    name: 'Wit',
+    menuName: 'Wit',
+    title: 'Co-Founder, Catalyzt Tech',
+    social: 'witjarukit',
+    description:
+      'A student in Web3 with a background in Web2, co-founder of Catalyzt Tech, currently developing RetroPGF Hub and various governance tools on Optimism.',
+    image: '/speakers/wit.jpg',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
+  {
+    name: 'Vanessa Koh',
+    menuName: 'Vanessa Koh',
+    title: 'Communications & Outreach, ESP',
+    social: '',
+    description:
+      'Vanessa manages the communications and outreach efforts of the Ecosystem Support Program, which is the public-facing allocation arm of the Ethereum Foundation.',
+    image: '/speakers/vanessa.jpeg',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
+  {
+    name: 'Unnawut Leepaisalsuwanna',
+    menuName: 'Unnawut Leepaisalsuwanna',
+    title: 'Ethereum Devcon Team',
+    social: '',
+    description:
+      "Unnawut is the Communiter Supporter under the Devcon Team and helps organize Ethereum SEA Day. He's been in the Ethereum space as a software engineer since 2017. As a hobby, he runs sepolia.org and operates a couple of Ethereum validators for multiple liquid staking protocols. His interest spans across L1 protocol development, L2 implementations all the way to real-world use cases using Ethereum.",
+    image: '/speakers/unnawut.jpeg',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
+  {
+    name: 'Loi Luu',
+    menuName: 'Loi Luu',
+    title: 'Founder of Caliber & Kyber',
+    social: '',
+    description:
+      'Loi Luu is Founder of Caliber, a web3 venture building studios for web3 startups that invests & builds with new founders. He previously founded Kyber Network in 2017, a leading decentralised trading aggregator for crypto assets.',
+    image: '/speakers/loi.jpeg',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
+  {
+    name: 'Yanis',
+    menuName: 'Yanis',
+    title: 'Software Engineer, PSE, Anon Aadhaar',
+    social: '',
+    description: '',
+    image: '/speakers/placeholder.png',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
 ]
 const Speakers: React.FC = () => {
   const [speakerIndex, setSpeakerIndex] = useState(0)
@@ -250,7 +370,7 @@ const Speakers: React.FC = () => {
           {/* 
             Speakers list
           */}
-          <div className="w-1/3 flex flex-col justify-start items-end">
+          <div className="w-1/3 h-[500px] overflow-y-scroll flex flex-col justify-start items-end">
             {speakers.map((speaker, index) => (
               <div
                 onClick={() => setSpeakerIndex(index)}
