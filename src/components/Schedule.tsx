@@ -40,7 +40,7 @@ const schedules = [
       {
         time: '11:00 to 11:20',
         speaker: 'Kim Trong Nguyen - Head of Research, Kyber Network',
-        description: 'ELI5: DeFi',
+        description: 'DeFi: Then and Now',
       },
       {
         time: '11:20 to 11:40',
