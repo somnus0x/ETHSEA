@@ -25,17 +25,19 @@ const schedules = [
       {
         time: '10:00 to 10:20',
         speaker: 'Unnawut - Devcon Team',
-        description: 'Web3 Landscape in SEA',
+        description:
+          'Ethereum in Southeast Asia: The Past, The Presence, The Future',
       },
       {
         time: '10:20 to 10:40',
         speaker: 'Mario Havel - Protocol Support, Ethereum Foundation',
-        description: 'ELI5: L1 protocol development',
+        description:
+          'L1 Protocol Development: its goals, how it works, why it works that way, how to get involved',
       },
       {
         time: '10:40 to 11:00',
         speaker: 'Hubert, L2BEAT',
-        description: 'ELI5: Layer 2',
+        description: 'A Very Quick Overview of L2s',
       },
       {
         time: '11:00 to 11:20',
@@ -76,11 +78,11 @@ const schedules = [
       {
         time: '14:00 to 14:20',
         speaker: 'Guo Liu - Matters Lab',
-        description: 'Decentralized social media',
+        description: 'The online content we consume and how to decetralize them',
       },
       {
         time: '14:20 to 14:40',
-        speaker: 'Varit Curia - CEO & Co-Founder, Curia Lab ',
+        speaker: 'Varit Curia - CEO & Co-Founder, Curia Lab',
         description: 'ELI5: DAO',
       },
       {
