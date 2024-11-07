@@ -69,8 +69,8 @@ const schedules = [
       },
       {
         time: '13:40 to 14:00',
-        speaker: 'Topology',
-        description: 'Game/AW',
+        speaker: 'To be announced',
+        description: 'To be announced',
       },
       {
         time: '14:00 to 14:20',
@@ -94,9 +94,11 @@ const schedules = [
       },
       {
         time: '15:20 to 15:40',
-        speaker: 'Irene Umar',
-        description:
-          'Potential of future Indonesia creative economy landscape and it’s potential using Web3 technology',
+        speaker: 'To be announced',
+        description: 'To be announced',
+        // speaker: 'Irene Umar',
+        // description:
+        //   'Potential of future Indonesia creative economy landscape and it’s potential using Web3 technology',
       },
       {
         time: '15:40 to 16:00',
@@ -130,7 +132,7 @@ const schedules = [
       },
       {
         time: '10:00 to 10:20',
-        speaker: 'TY',
+        speaker: 'TY - Etherscan',
         description: 'Exploring Ethereum and L2s with a block explorer',
       },
       {
@@ -140,17 +142,17 @@ const schedules = [
       },
       {
         time: '10:40 to 11:00',
-        speaker: 'Sheng Yong Kim',
+        speaker: 'Sheng Yong Kim - CoinGecko',
         description: 'Building Products in Web3 Data Space',
       },
       {
         time: '11:00 to 11:20',
-        speaker: 'Billy & Wit',
+        speaker: 'Jarukit (Wit) Jintanasathirakul & Ratchanon (Billy) Tarawan - Catalyzt Tech',
         description: 'Building Web3 as a Student: Insights, Challenges, and Growth',
       },
       {
         time: '11:20 to 11:40',
-        speaker: 'Marco Manoppo',
+        speaker: 'Marco Manoppo - Primitive Ventures',
         description: 'Building blocks to succeed as web3 founders',
       },
       {
@@ -160,18 +162,18 @@ const schedules = [
       },
       {
         time: '13:00 to 13:20',
-        speaker: 'Mike Phul',
+        speaker: 'Mike Phulsuksombati',
         description: 'Journey as a Web3 Founder - From Founding to Exit',
       },
       {
         time: '13:20 to 13:40',
-        speaker: 'Rati, Chun, Arin',
-        description: 'Local Dev Panel',
+        speaker: 'Rati Montreewat, Chun Rapeepat, Arin Trongsantipong',
+        description: 'Different Paths of Web3 Developers',
       },
       {
         time: '13:40 to 14:00',
-        speaker: 'Rati, Chun, Arin',
-        description: 'Local Dev Panel',
+        speaker: 'Rati Montreewat, Chun Rapeepat, Arin Trongsantipong',
+        description: 'Different Paths of Web3 Developers',
       },
       {
         time: '14:00 to 14:20',
@@ -203,6 +205,16 @@ const schedules = [
         speaker: 'Harith Kamarul',
         description: 'Learnings on organising an Ethereum Community',
       },
+      {
+        time: '16:00 to 16:20',
+        speaker: 'To be announced',
+        description: 'To be announced',
+      },
+      {
+        time: '16:20 to 16:40',
+        speaker: 'To be announced',
+        description: 'To be announced',
+      },
     ],
   },
   {
@@ -212,7 +224,7 @@ const schedules = [
     schedule: [
       {
         time: '13:00 to 16:00',
-        speaker: '',
+        speaker: 'Nattapon (Tot) Nimakul & Sitthavee (Son) Teerakulchon',
         description: 'Web3 Developer Onboarding Workshop',
       },
     ],
