@@ -32,7 +32,7 @@ const schedules = [
         time: '10:20 to 10:40',
         speaker: 'Mario Havel - Protocol Support, Ethereum Foundation',
         description:
-          'L1 Protocol Development: its goals, how it works, why it works that way, how to get involved',
+          'L1 Protocol Development: Its Goals, How It Works, Why It Works That Way & How to Get Involved',
       },
       {
         time: '10:40 to 11:00',
@@ -52,7 +52,7 @@ const schedules = [
       {
         time: '11:40 to 12:00',
         speaker: 'Aya Miyaguchi - Executive Director, Ethereum Foundation',
-        description: 'Fireside chat with Aya',
+        description: 'Fireside Chat with Aya',
       },
       {
         time: '12:00 to 13:00',
@@ -62,7 +62,7 @@ const schedules = [
       {
         time: '13:00 to 13:20',
         speaker: 'DEPA',
-        description: 'The importance of blockchain for the Thailand ecosystem',
+        description: 'The Importance of Blockchain for the Thailand Ecosystem',
       },
       {
         time: '13:20 to 13:40',
@@ -78,7 +78,7 @@ const schedules = [
       {
         time: '14:00 to 14:20',
         speaker: 'Guo Liu - Matters Lab',
-        description: 'The online content we consume and how to decetralize them',
+        description: 'The Online Content We Consume and How to Decetralize Them',
       },
       {
         time: '14:20 to 14:40',
@@ -107,19 +107,19 @@ const schedules = [
         time: '15:40 to 16:00',
         speaker: 'Loi Luu - Founder of Caliber & Kyber',
         description:
-          'Why ethereum is more relevant today than ever (and will be for a long time)',
+          'Why Ethereum is More Relevant Today Than Ever (and Will Be For a Long Time)',
       },
       {
         time: '16:00 to 16:40',
         speaker:
           "MynaWallet (Japan's gov ID), Anon-Aadhaar (India), and Proof of Passport)",
-        description: 'National IDs in the Ethereum ecosystem',
+        description: 'National IDs in the Ethereum Ecosystem',
       },
       {
         time: '16:40 to 17:00',
         speaker: 'Vitalik Buterin',
         description:
-          'Southeast Asia and its importance to the global Ethereum ecosystem',
+          'Southeast Asia and Its Importance to the Global Ethereum Ecosystem',
       },
     ],
   },
@@ -136,7 +136,7 @@ const schedules = [
       {
         time: '10:00 to 10:20',
         speaker: 'TY - Etherscan',
-        description: 'Exploring Ethereum and L2s with a block explorer',
+        description: 'Exploring Ethereum and L2s with a Block Explorer',
       },
       {
         time: '10:20 to 10:40',
@@ -157,7 +157,7 @@ const schedules = [
       {
         time: '11:20 to 11:40',
         speaker: 'Marco Manoppo - Primitive Ventures',
-        description: 'Building blocks to succeed as web3 founders',
+        description: 'Building Blocks to Succeed as Web3 Founders',
       },
       {
         time: '12:00 to 13:00',
@@ -177,17 +177,17 @@ const schedules = [
       {
         time: '13:40 to 14:00',
         speaker: 'Rati Montreewat, Chun Rapeepat, Arin Trongsantipong',
-        description: 'Different Paths of Web3 Developers',
+        description: 'Different Paths of Web3 Developers (continue)',
       },
       {
         time: '14:00 to 14:20',
         speaker: 'Vectorized - Solady Maintainer',
-        description: 'Starting a dev journey into Ethereum',
+        description: 'Starting a Dev Journey into Ethereum',
       },
       {
         time: '14:20 to 14:40',
         speaker: 'Nutchanon Ploypray - Tech Lead at Cleverse',
-        description: '101 for data analyst',
+        description: '101 for Data Analyst',
       },
       {
         time: '14:40 to 15:00',
@@ -202,12 +202,12 @@ const schedules = [
       {
         time: '15:20 to 15:40',
         speaker: 'Muhammad Amirul Ashraf - Ethereum Core Dev at Nethermind',
-        description: 'Optimizing execution client sync time',
+        description: 'Optimizing Execution Client Sync Time',
       },
       {
         time: '15:40 to 16:00',
         speaker: 'Harith Kamarul - Team Mascot, ETHKL',
-        description: 'Learnings on organising an Ethereum Community',
+        description: 'Learnings on Organising an Ethereum Community',
       },
       {
         time: '16:00 to 16:20',
