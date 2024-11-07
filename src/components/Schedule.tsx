@@ -24,12 +24,12 @@ const schedules = [
       },
       {
         time: '10:00 to 10:20',
-        speaker: 'Unnawut',
+        speaker: 'Unnawut - Devcon Team',
         description: 'Web3 Landscape in SEA',
       },
       {
         time: '10:20 to 10:40',
-        speaker: 'Mario Havel',
+        speaker: 'Mario Havel - Protocol Support, Ethereum Foundation',
         description: 'ELI5: L1 protocol development',
       },
       {
@@ -39,17 +39,17 @@ const schedules = [
       },
       {
         time: '11:00 to 11:20',
-        speaker: 'Kim Trong Nguyen, Kyber',
+        speaker: 'Kim Trong Nguyen - Head of Research, Kyber Network',
         description: 'ELI5: DeFi',
       },
       {
         time: '11:20 to 11:40',
-        speaker: 'Lysa JY Tan',
+        speaker: 'Lysa JY Tan - Founder & CEO, Economics Design',
         description: 'ELI5 CryptoEconomics',
       },
       {
         time: '11:40 to 12:00',
-        speaker: 'Aya Miyaguchi',
+        speaker: 'Aya Miyaguchi - Executive Director, Ethereum Foundation',
         description: 'Fireside chat with Aya',
       },
       {
@@ -64,7 +64,8 @@ const schedules = [
       },
       {
         time: '13:20 to 13:40',
-        speaker: 'Jern PSE',
+        speaker:
+          'Teeramet (Jern) Kunpittaya - Research Engineer at Privacy & Scaling Exploration, Ethereum Foundation',
         description: 'ELI5 ProgCrpto',
       },
       {
@@ -74,17 +75,17 @@ const schedules = [
       },
       {
         time: '14:00 to 14:20',
-        speaker: 'Guo',
+        speaker: 'Guo Liu - Matters Lab',
         description: 'Decentralized social media',
       },
       {
         time: '14:20 to 14:40',
-        speaker: 'Varit Curia',
+        speaker: 'Varit Curia - CEO & Co-Founder, Curia Lab ',
         description: 'ELI5: DAO',
       },
       {
         time: '14:40 to 15:00',
-        speaker: 'Cathie',
+        speaker: 'Cathie So - Chief Scientist, ORA',
         description: 'ELI5: Crypto x AI',
       },
       {
@@ -102,7 +103,7 @@ const schedules = [
       },
       {
         time: '15:40 to 16:00',
-        speaker: 'Loi Luu',
+        speaker: 'Loi Luu - Founder of Caliber & Kyber',
         description:
           'Why ethereum is more relevant today than ever (and will be for a long time)',
       },
@@ -163,7 +164,7 @@ const schedules = [
       },
       {
         time: '13:00 to 13:20',
-        speaker: 'Mike Phulsuksombati',
+        speaker: 'Mike Phulsuksombati - Founder & Staff Software Engineer',
         description: 'Journey as a Web3 Founder - From Founding to Exit',
       },
       {
@@ -178,17 +179,17 @@ const schedules = [
       },
       {
         time: '14:00 to 14:20',
-        speaker: 'Vectorized',
+        speaker: 'Vectorized - Solady Maintainer',
         description: 'Starting a dev journey into Ethereum',
       },
       {
         time: '14:20 to 14:40',
-        speaker: 'Nutchanon Ploypray',
+        speaker: 'Nutchanon Ploypray - Tech Lead at Cleverse',
         description: '101 for data analyst',
       },
       {
         time: '14:40 to 15:00',
-        speaker: 'Chee Chyuan',
+        speaker: 'Chee Chyuan - Researcher at Nethermind',
         description: 'ZKP Research',
       },
       {
@@ -198,12 +199,12 @@ const schedules = [
       },
       {
         time: '15:20 to 15:40',
-        speaker: 'Muhammad Amirul Ashraf',
+        speaker: 'Muhammad Amirul Ashraf - Ethereum Core Dev at Nethermind',
         description: 'Optimizing execution client sync time',
       },
       {
         time: '15:40 to 16:00',
-        speaker: 'Harith Kamarul',
+        speaker: 'Harith Kamarul - Team Mascot, ETHKL',
         description: 'Learnings on organising an Ethereum Community',
       },
       {
