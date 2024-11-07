@@ -41,6 +41,7 @@ module.exports = {
       },
       secondary: {
         DEFAULT: '#2CC6BA',
+        secondary: '#F366F7',
       },
       background: {
         DEFAULT: '#2C40BA',
