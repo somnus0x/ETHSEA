@@ -147,7 +147,8 @@ const schedules = [
       },
       {
         time: '11:00 to 11:20',
-        speaker: 'Jarukit (Wit) Jintanasathirakul & Ratchanon (Billy) Tarawan - Catalyzt Tech',
+        speaker:
+          'Jarukit (Wit) Jintanasathirakul & Ratchanon (Billy) Tarawan - Catalyzt Tech',
         description: 'Building Web3 as a Student: Insights, Challenges, and Growth',
       },
       {
