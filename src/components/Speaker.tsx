@@ -258,7 +258,7 @@ const speakers = [
     social: 'billy191',
     description:
       'Blockchain enthusiast and just a student who loves building! 💪 Co-founder of Catalyzt Tech, creating the future on Optimism with RetroPGF Hub, impact calculators, and more. Shaking things up in crypto and beyond!',
-    image: '/speakers/billy.jpg',
+    image: '/speakers/Billy.png',
     color: 'text-[#a5f3fc]',
     underlineColor: 'border-[#a5f3fc]',
   },
@@ -269,7 +269,7 @@ const speakers = [
     social: 'witjarukit',
     description:
       'A student in Web3 with a background in Web2, co-founder of Catalyzt Tech, currently developing RetroPGF Hub and various governance tools on Optimism.',
-    image: '/speakers/wit.jpg',
+    image: '/speakers/Wit.png',
     color: 'text-[#fbcfe8]',
     underlineColor: 'border-[#fbcfe8]',
   },
@@ -302,7 +302,7 @@ const speakers = [
     social: '',
     description:
       'Loi Luu is Founder of Caliber, a web3 venture building studios for web3 startups that invests & builds with new founders. He previously founded Kyber Network in 2017, a leading decentralised trading aggregator for crypto assets.',
-    image: '/speakers/loi.jpeg',
+    image: '/speakers/Lui.png',
     color: 'text-[#fbcfe8]',
     underlineColor: 'border-[#fbcfe8]',
   },
@@ -345,7 +345,40 @@ const speakers = [
     social: '',
     description:
       'Florent is leading the OpenPassport team, working on zero-knowledge verification of identity documents',
-    image: '/speakers/florent.jpeg',
+    image: '/speakers/Florent.png',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
+  {
+    name: 'Tin',
+    menuName: 'Tin',
+    title: 'ETH63 Core Member, Developer at WAIFU Project',
+    social: '0xDankiii',
+    description:
+      'As a core member of ETH63, Tin is actively engaged in cultivating a vibrant Ethereum community in the Philippines, focusing on grassroots efforts to educate and support enthusiasts and builders of Ethereum ecosystem through workshops, mentoring, and open source code. She is also the creator of the WAIFU Project- an open-source design system and frontend library of web3 components.',
+    image: '/speakers/Tin.png',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
+  {
+    name: 'Marco',
+    menuName: 'Marco',
+    title: 'Investor at Primitive Ventures',
+    social: 'ManoppoMarco',
+    description:
+      'Marco is an Investor at Primitive Ventures. Before Primitive, Marco was the Research Director at DAR, an institutional crypto research and data provider that have worked with the likes of BBG and FTSE. Prior to that, he was an analyst at a crypto fund and have consulted various DeFi projects. He also runs his media company launchy.app',
+    image: '/speakers/Marco.png',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
+  {
+    name: 'Earth',
+    menuName: 'Earth',
+    title: 'Web3 Developer & Team Lead, Cleverse',
+    social: '',
+    description:
+      'Earth transitioned from a seasoned Web2 developer to a dedicated Web3 innovator, beginning his journey with Ethereum in 2020. With a focus on building user-centered blockchain products, Earth leads efforts to bridge traditional web experiences with the complexities of decentralized technology, always prioritizing exceptional user experience.',
+    image: '/speakers/Earth.png',
     color: 'text-[#fbcfe8]',
     underlineColor: 'border-[#fbcfe8]',
   },
