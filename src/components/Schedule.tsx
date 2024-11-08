@@ -62,7 +62,7 @@ const schedules = [
       {
         time: '13:00 to 13:20',
         speaker:
-          'Assist. Prof. Dr. Nuttapon Nimmanphatcharin - President/CEO of the Digital Economy Promotion Agency',
+          'To be announced',
         description: 'The Importance of Blockchain for the Thailand Ecosystem',
       },
       {
