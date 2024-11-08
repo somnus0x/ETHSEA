@@ -216,8 +216,8 @@ const schedules = [
       },
       {
         time: '16:20 to 16:40',
-        speaker: 'To be announced',
-        description: 'To be announced',
+        speaker: 'Gesa Schneider',
+        description: 'Leveraging Ethereum for Sustainable Solutions in Southeast Asia',
       },
     ],
   },
