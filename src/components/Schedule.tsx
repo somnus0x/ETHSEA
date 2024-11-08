@@ -24,7 +24,7 @@ const schedules = [
       },
       {
         time: '10:00 to 10:20',
-        speaker: 'Unnawut - Devcon Team',
+        speaker: 'Unnawut Leepaisalsuwanna - Devcon Team',
         description:
           'Ethereum in Southeast Asia: The Past, The Presence, The Future',
       },
@@ -36,7 +36,7 @@ const schedules = [
       },
       {
         time: '10:40 to 11:00',
-        speaker: 'Hubert, L2BEAT',
+        speaker: 'Hubert Kotliński - L2BEAT',
         description: 'A Very Quick Overview of L2s',
       },
       {
@@ -46,8 +46,8 @@ const schedules = [
       },
       {
         time: '11:20 to 11:40',
-        speaker: 'Lysa JY Tan - Founder & CEO, Economics Design',
-        description: 'ELI5 CryptoEconomics',
+        speaker: 'Lisa Tan - Founder & CEO, Economics Design',
+        description: 'Cryptoeconomics',
       },
       {
         time: '11:40 to 12:00',
@@ -61,19 +61,21 @@ const schedules = [
       },
       {
         time: '13:00 to 13:20',
-        speaker: 'DEPA',
+        speaker:
+          'Assist. Prof. Dr. Nuttapon Nimmanphatcharin - President/CEO of the Digital Economy Promotion Agency',
         description: 'The Importance of Blockchain for the Thailand Ecosystem',
       },
       {
         time: '13:20 to 13:40',
         speaker:
           'Teeramet (Jern) Kunpittaya - Research Engineer at Privacy & Scaling Exploration, Ethereum Foundation',
-        description: 'ELI5 ProgCrpto',
+        description: 'ELI5 Programmable Crptography',
       },
       {
         time: '13:40 to 14:00',
-        speaker: 'To be announced',
-        description: 'To be announced',
+        speaker: 'Hilmar Petursson & Justin Gilbert',
+        description:
+          'EVE Frontier - challenges, lessons and future of building an autonomous world on Ethereum',
       },
       {
         time: '14:00 to 14:20',
@@ -83,12 +85,12 @@ const schedules = [
       {
         time: '14:20 to 14:40',
         speaker: 'Varit Curia - CEO & Co-Founder, Curia Lab',
-        description: 'ELI5: DAO',
+        description: 'DAO Landscape & Opportunities in 2025',
       },
       {
         time: '14:40 to 15:00',
         speaker: 'Cathie So - Chief Scientist, ORA',
-        description: 'ELI5: Crypto x AI',
+        description: 'Crypto x AI',
       },
       {
         time: '15:00 to 15:20',
@@ -112,12 +114,12 @@ const schedules = [
       {
         time: '16:00 to 16:40',
         speaker:
-          "MynaWallet (Japan's gov ID), Anon-Aadhaar (India), and Proof of Passport)",
+          'Yanis (Anon Aadhaar), Hiroyuki Tachibana (Co-founder CEO  / MynaWallet), Michael Elliot (ZKpassport), Florent Tavernier (OpenPassport), nico (Kyoto University, OpenPassport)',
         description: 'National IDs in the Ethereum Ecosystem',
       },
       {
         time: '16:40 to 17:00',
-        speaker: 'Vitalik Buterin',
+        speaker: 'Vitalik Buterin - Co-founder, Ethereum',
         description:
           'Southeast Asia and Its Importance to the Global Ethereum Ecosystem',
       },
@@ -140,7 +142,8 @@ const schedules = [
       },
       {
         time: '10:20 to 10:40',
-        speaker: 'Tin',
+        speaker:
+          'Christine (0xDanki) Erispe - Opensource Developer of The WAIFU Project',
         description: 'Crypto UX and Bridging User Mental Models to Developers',
       },
       {
@@ -170,14 +173,10 @@ const schedules = [
         description: 'Journey as a Web3 Founder - From Founding to Exit',
       },
       {
-        time: '13:20 to 13:40',
+        time: '13:20 to 14:00',
         speaker: 'Rati Montreewat, Chun Rapeepat, Arin Trongsantipong',
-        description: 'Different Paths of Web3 Developers',
-      },
-      {
-        time: '13:40 to 14:00',
-        speaker: 'Rati Montreewat, Chun Rapeepat, Arin Trongsantipong',
-        description: 'Different Paths of Web3 Developers (continue)',
+        description:
+          'Tales of 3 Developers: The Independent Developer, The Indie Hacker, and The Product Developer',
       },
       {
         time: '14:00 to 14:20',
@@ -211,13 +210,16 @@ const schedules = [
       },
       {
         time: '16:00 to 16:20',
-        speaker: 'To be announced',
-        description: 'To be announced',
+        speaker:
+          'Setiaji Setiaji - Chief of Digital Transformation Office at Ministry of Health of the Republic of Indonesia',
+        description:
+          'How SatuSehat App, the Official Healthcare App in Indonesia, is Experimenting Blockchain for Future Patient Data',
       },
       {
         time: '16:20 to 16:40',
-        speaker: 'To be announced',
-        description: 'To be announced',
+        speaker: 'Gesa Schneider - Ethereum Scholar',
+        description:
+          'Leveraging Ethereum for Sustainable Solutions in Southeast Asia',
       },
     ],
   },
