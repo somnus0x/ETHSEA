@@ -46,8 +46,8 @@ const schedules = [
       },
       {
         time: '11:20 to 11:40',
-        speaker: 'Lysa JY Tan - Founder & CEO, Economics Design',
-        description: 'ELI5 CryptoEconomics',
+        speaker: 'Lisa Tan - Founder & CEO, Economics Design',
+        description: 'Cryptoeconomics',
       },
       {
         time: '11:40 to 12:00',
@@ -69,7 +69,7 @@ const schedules = [
         time: '13:20 to 13:40',
         speaker:
           'Teeramet (Jern) Kunpittaya - Research Engineer at Privacy & Scaling Exploration, Ethereum Foundation',
-        description: 'ELI5 ProgCrpto',
+        description: 'ELI5 Programmable Crptography',
       },
       {
         time: '13:40 to 14:00',
@@ -90,7 +90,7 @@ const schedules = [
       {
         time: '14:40 to 15:00',
         speaker: 'Cathie So - Chief Scientist, ORA',
-        description: 'ELI5: Crypto x AI',
+        description: 'Crypto x AI',
       },
       {
         time: '15:00 to 15:20',
