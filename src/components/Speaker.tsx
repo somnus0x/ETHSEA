@@ -382,6 +382,49 @@ const speakers = [
     color: 'text-[#fbcfe8]',
     underlineColor: 'border-[#fbcfe8]',
   },
+  {
+    name: 'Gesa Schneider',
+    menuName: 'Gesa Schneider',
+    title: 'Ethereum Scholar',
+    social: 'G3saVV',
+    description:
+      "Gesa Schneider is a pioneering entrepreneur and sustainability advocate at the intersection of technology and climate action. As founder and CEO of Circuteria, she's developed a sustainable materials platform. Her expertise spans 3D printing, blockchain, and circular economy practices. Through her blog and speaking engagements, she drives the ecological benefits of regenerative business models and empowers others to adopt sustainable practices that prioritize environmental impact.",
+    image: '/speakers/Gesa.png',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
+  {
+    name: 'nico',
+    menuName: 'nico',
+    title: 'Researcher at Kyoto Univ and developer at OpenPassport',
+    social: '',
+    description:
+      'ex-MynaWallet team and now in OpenPassport. Interested in privacy preserving technology and wallet.',
+    image: '/speakers/nico.jpeg',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
+  {
+    name: 'Justin Glibert',
+    menuName: 'Justin Glibert',
+    title: 'Co-founder of 0xPARC & CEO of Lattice',
+    social: '',
+    description: '',
+    image: '/speakers/justin.jpeg',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
+  {
+    name: 'Hilmar Petursson',
+    menuName: 'Hilmar Petursson',
+    title: 'Hilmar Petursson',
+    social: '',
+    description: `Since 2004, Hilmar has led CCP Games as CEO, championing the power of virtual worlds to create meaningful social connections. Under his leadership, EVE Online pioneered innovations like player-driven economies and community governance, achieving over 20 years of continuous engagement.
+Previously serving as CCP’s CTO from 2000-2005, Hilmar has been honored across the industry, shaping digital economies. Active on various boards, he holds a B.Sc. in Computer Science from the University of Iceland.`,
+    image: '/speakers/hilmar.jpeg',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
 ]
 const Speakers: React.FC = () => {
   const [speakerIndex, setSpeakerIndex] = useState(0)
