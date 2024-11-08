@@ -36,7 +36,7 @@ const schedules = [
       },
       {
         time: '10:40 to 11:00',
-        speaker: 'Hubert, L2BEAT',
+        speaker: 'Hubert Kotliński, L2BEAT',
         description: 'A Very Quick Overview of L2s',
       },
       {
@@ -61,7 +61,8 @@ const schedules = [
       },
       {
         time: '13:00 to 13:20',
-        speaker: 'DEPA',
+        speaker:
+          'Assist. Prof. Dr. Nuttapon Nimmanphatcharin - President/CEO of the Digital Economy Promotion Agency',
         description: 'The Importance of Blockchain for the Thailand Ecosystem',
       },
       {
@@ -72,8 +73,9 @@ const schedules = [
       },
       {
         time: '13:40 to 14:00',
-        speaker: 'To be announced',
-        description: 'To be announced',
+        speaker: 'Hilmar Petursson & Justin Gilbert',
+        description:
+          'EVE Frontier - challenges, lessons and future of building an autonomous world on Ethereum',
       },
       {
         time: '14:00 to 14:20',
@@ -83,7 +85,7 @@ const schedules = [
       {
         time: '14:20 to 14:40',
         speaker: 'Varit Curia - CEO & Co-Founder, Curia Lab',
-        description: 'ELI5: DAO',
+        description: 'DAO Landscape & Opportunities in 2025',
       },
       {
         time: '14:40 to 15:00',
@@ -112,7 +114,7 @@ const schedules = [
       {
         time: '16:00 to 16:40',
         speaker:
-          "MynaWallet (Japan's gov ID), Anon-Aadhaar (India), and Proof of Passport)",
+          'Yanis (Anon Aadhaar), Hiroyuki Tachibana (Co-founder CEO  / MynaWallet), Michael Elliot (ZKpassport), Florent Tavernier (OpenPassport), nico (Kyoto University, OpenPassport)',
         description: 'National IDs in the Ethereum Ecosystem',
       },
       {
