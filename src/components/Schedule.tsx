@@ -172,7 +172,8 @@ const schedules = [
       {
         time: '13:20 to 14:00',
         speaker: 'Rati Montreewat, Chun Rapeepat, Arin Trongsantipong',
-        description: 'Different Paths of Web3 Developers',
+        description:
+          'The Tales of 3 Developers: The Independent Developer, The Indie Hacker, and The Product Developer',
       },
       {
         time: '14:00 to 14:20',
@@ -206,8 +207,9 @@ const schedules = [
       },
       {
         time: '16:00 to 16:20',
-        speaker: 'To be announced',
-        description: 'To be announced',
+        speaker: 'Setiaji',
+        description:
+          'How SatuSehat App, the Official Healthcare App in Indonesia, is Experimenting Blockchain for Future Patient Data',
       },
       {
         time: '16:20 to 16:40',
