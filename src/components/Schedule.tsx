@@ -61,8 +61,7 @@ const schedules = [
       },
       {
         time: '13:00 to 13:20',
-        speaker:
-          'To be announced',
+        speaker: 'To be announced',
         description: 'The Importance of Blockchain for the Thailand Ecosystem',
       },
       {
