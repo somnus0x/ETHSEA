@@ -140,7 +140,7 @@ const schedules = [
       },
       {
         time: '10:20 to 10:40',
-        speaker: 'Tin',
+        speaker: 'Tin - Opensource Developer of The WAIFU Project',
         description: 'Crypto UX and Bridging User Mental Models to Developers',
       },
       {
