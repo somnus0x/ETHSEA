@@ -170,14 +170,9 @@ const schedules = [
         description: 'Journey as a Web3 Founder - From Founding to Exit',
       },
       {
-        time: '13:20 to 13:40',
+        time: '13:20 to 14:00',
         speaker: 'Rati Montreewat, Chun Rapeepat, Arin Trongsantipong',
         description: 'Different Paths of Web3 Developers',
-      },
-      {
-        time: '13:40 to 14:00',
-        speaker: 'Rati Montreewat, Chun Rapeepat, Arin Trongsantipong',
-        description: 'Different Paths of Web3 Developers (continue)',
       },
       {
         time: '14:00 to 14:20',
@@ -217,7 +212,8 @@ const schedules = [
       {
         time: '16:20 to 16:40',
         speaker: 'Gesa Schneider',
-        description: 'Leveraging Ethereum for Sustainable Solutions in Southeast Asia',
+        description:
+          'Leveraging Ethereum for Sustainable Solutions in Southeast Asia',
       },
     ],
   },
