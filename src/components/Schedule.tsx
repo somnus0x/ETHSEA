@@ -99,11 +99,9 @@ const schedules = [
       },
       {
         time: '15:20 to 15:40',
-        speaker: 'To be announced',
-        description: 'To be announced',
-        // speaker: 'Irene Umar',
-        // description:
-        //   'Potential of future Indonesia creative economy landscape and it’s potential using Web3 technology',
+        speaker: 'Irene Umar',
+        description:
+          'Potential of future Indonesia creative economy landscape and it’s potential using Web3 technology',
       },
       {
         time: '15:40 to 16:00',
