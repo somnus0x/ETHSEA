@@ -24,7 +24,7 @@ const schedules = [
       },
       {
         time: '10:00 to 10:20',
-        speaker: 'Unnawut - Devcon Team',
+        speaker: 'Unnawut Leepaisalsuwanna - Devcon Team',
         description:
           'Ethereum in Southeast Asia: The Past, The Presence, The Future',
       },
@@ -36,7 +36,7 @@ const schedules = [
       },
       {
         time: '10:40 to 11:00',
-        speaker: 'Hubert Kotliński, L2BEAT',
+        speaker: 'Hubert Kotliński - L2BEAT',
         description: 'A Very Quick Overview of L2s',
       },
       {
@@ -119,7 +119,7 @@ const schedules = [
       },
       {
         time: '16:40 to 17:00',
-        speaker: 'Vitalik Buterin',
+        speaker: 'Vitalik Buterin - Co-founder, Ethereum',
         description:
           'Southeast Asia and Its Importance to the Global Ethereum Ecosystem',
       },
@@ -142,7 +142,8 @@ const schedules = [
       },
       {
         time: '10:20 to 10:40',
-        speaker: 'Tin - Opensource Developer of The WAIFU Project',
+        speaker:
+          'Christine (0xDanki) Erispe - Opensource Developer of The WAIFU Project',
         description: 'Crypto UX and Bridging User Mental Models to Developers',
       },
       {
@@ -175,7 +176,7 @@ const schedules = [
         time: '13:20 to 14:00',
         speaker: 'Rati Montreewat, Chun Rapeepat, Arin Trongsantipong',
         description:
-          'The Tales of 3 Developers: The Independent Developer, The Indie Hacker, and The Product Developer',
+          'Tales of 3 Developers: The Independent Developer, The Indie Hacker, and The Product Developer',
       },
       {
         time: '14:00 to 14:20',
@@ -209,13 +210,14 @@ const schedules = [
       },
       {
         time: '16:00 to 16:20',
-        speaker: 'Setiaji',
+        speaker:
+          'Setiaji Setiaji - Chief of Digital Transformation Office at Ministry of Health of the Republic of Indonesia',
         description:
           'How SatuSehat App, the Official Healthcare App in Indonesia, is Experimenting Blockchain for Future Patient Data',
       },
       {
         time: '16:20 to 16:40',
-        speaker: 'Gesa Schneider',
+        speaker: 'Gesa Schneider - Ethereum Scholar',
         description:
           'Leveraging Ethereum for Sustainable Solutions in Southeast Asia',
       },
