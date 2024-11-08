@@ -61,7 +61,7 @@ const schedules = [
       },
       {
         time: '13:00 to 13:20',
-        speaker: 'To be announced',
+        speaker: 'To be announced - Digital Economy Promotion Agency',
         description: 'The Importance of Blockchain for the Thailand Ecosystem',
       },
       {
