@@ -100,9 +100,10 @@ const schedules = [
       },
       {
         time: '15:20 to 15:40',
-        speaker: 'Irene Umar',
+        speaker:
+          'Irene Umar - Vice Minister of Creative Economy, Republic of Indonesia',
         description:
-          'Potential of future Indonesia creative economy landscape and it’s potential using Web3 technology',
+          "Empowering Indonesia's Creative Economy Through Blockchain Innovation.",
       },
       {
         time: '15:40 to 16:00',
