@@ -102,11 +102,7 @@ const schedules = [
         speaker:
           'Irene Umar - Vice Minister of Creative Economy, Republic of Indonesia',
         description:
-<<<<<<< HEAD
           "Empowering Indonesia's Creative Economy Through Blockchain Innovation",
-=======
-          "Empowering Indonesia's Creative Economy Through Blockchain Innovation.",
->>>>>>> 7a9255b3f52429fb34915f90ec08445c23460667
       },
       {
         time: '15:40 to 16:00',
@@ -187,7 +183,6 @@ const schedules = [
       },
       {
         time: '14:20 to 14:40',
-<<<<<<< HEAD
         speaker: 'Nutchanon Ploypray',
         description:
           'From Blocks to Insights: Practical Data Insights for Ethereum Analysts ',
@@ -196,15 +191,6 @@ const schedules = [
         time: '14:40 to 15:00',
         speaker: 'Chee Chyuan',
         description: 'Journey to Researcher',
-=======
-        speaker: 'Nutchanon Ploypray - Tech Lead at Cleverse',
-        description: '101 for Data Analyst',
-      },
-      {
-        time: '14:40 to 15:00',
-        speaker: 'Chee Chyuan - Researcher at Nethermind',
-        description: 'From Curiosity to Web3-ish Career',
->>>>>>> 7a9255b3f52429fb34915f90ec08445c23460667
       },
       {
         time: '15:00 to 15:20',
