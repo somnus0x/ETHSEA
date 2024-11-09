@@ -73,7 +73,8 @@ const schedules = [
       },
       {
         time: '13:40 to 14:00',
-        speaker: 'Hilmar Petursson & Justin Gilbert',
+        speaker:
+          'Justin Gilbert (Co-founder of 0xPARC & CEO of Lattice) & Hilmar Petursson (CEO CCP Games)',
         description:
           'EVE Frontier - challenges, lessons and future of building an autonomous world on Ethereum',
       },
