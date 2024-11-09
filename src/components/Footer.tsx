@@ -113,6 +113,13 @@ const supporters = [
     extraClasses: '',
   },
   {
+    id: 'web3village',
+    name: 'Web3 Village',
+    url: 'https://www.web3villages.com/',
+    img: '/supporters/web3village.png',
+    extraClasses: '',
+  },
+  {
     id: 'collegedao',
     name: 'College DAO',
     url: 'https://collegedao.io/',
@@ -213,7 +220,7 @@ const Footer: React.FC = () => {
           <div className="md:flex md:flex-wrap self-center justify-around items-center md:px-24">
             {supporters.map((supporter, index) => (
               <div
-                className={`md:inline-block md:px-8 text-center md:basis-1/4 ${supporter.extraClasses}`}
+                className={`md:inline-block md:px-8 md:py-4 text-center md:basis-1/4 ${supporter.extraClasses}`}
                 key={index}
               >
                 <a href={supporter.url || ''}>
