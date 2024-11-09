@@ -31,8 +31,7 @@ const schedules = [
       {
         time: '10:20 to 10:40',
         speaker: 'Mario Havel - Protocol Support, Ethereum Foundation',
-        description:
-          'L1 Protocol Development: Its Goals, How It Works, Why It Works That Way & How to Get Involved',
+        description: 'Intro to Ethereum Core Protocol Development',
       },
       {
         time: '10:40 to 11:00',
@@ -47,7 +46,7 @@ const schedules = [
       {
         time: '11:20 to 11:40',
         speaker: 'Lisa Tan - Founder & CEO, Economics Design',
-        description: 'Cryptoeconomics',
+        description: "Absolute Beginner's Guide to Token Economics",
       },
       {
         time: '11:40 to 12:00',
@@ -69,7 +68,7 @@ const schedules = [
         time: '13:20 to 13:40',
         speaker:
           'Teeramet (Jern) Kunpittaya - Research Engineer at Privacy & Scaling Exploration, Ethereum Foundation',
-        description: 'ELI5 Programmable Crptography',
+        description: 'WTF is Programmable Cryptography',
       },
       {
         time: '13:40 to 14:00',
@@ -91,7 +90,7 @@ const schedules = [
       {
         time: '14:40 to 15:00',
         speaker: 'Cathie So - Chief Scientist, ORA',
-        description: 'Crypto x AI',
+        description: 'ELI5 Crypto x AI',
       },
       {
         time: '15:00 to 15:20',
@@ -108,8 +107,7 @@ const schedules = [
       {
         time: '15:40 to 16:00',
         speaker: 'Loi Luu - Founder of Caliber & Kyber',
-        description:
-          'Why Ethereum is More Relevant Today Than Ever (and Will Be For a Long Time)',
+        description: 'Why Ethereum is More Relevant Today (and in the next decades)',
       },
       {
         time: '16:00 to 16:40',
@@ -191,7 +189,7 @@ const schedules = [
       {
         time: '14:40 to 15:00',
         speaker: 'Chee Chyuan - Researcher at Nethermind',
-        description: 'ZKP Research',
+        description: 'From Curiosity to Web3-ish Career',
       },
       {
         time: '15:00 to 15:20',
@@ -211,7 +209,7 @@ const schedules = [
       {
         time: '16:00 to 16:20',
         speaker:
-          'Setiaji Setiaji - Chief of Digital Transformation Office at Ministry of Health of the Republic of Indonesia',
+          'Setiaji - Chief of Digital Transformation Office at Ministry of Health of the Republic of Indonesia',
         description:
           'How SatuSehat App, the Official Healthcare App in Indonesia, is Experimenting Blockchain for Future Patient Data',
       },
