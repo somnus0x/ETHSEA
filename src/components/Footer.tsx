@@ -168,7 +168,14 @@ const supporters = [
     name: 'Smallworld',
     url: 'https://smallworldventure.com/',
     img: '/supporters/smallworld.png',
-    extraClasses: 'pb-6 -mt-4 md:mt-0',
+    extraClasses: '',
+  },
+  {
+    id: 'exponent',
+    name: 'Exponent AI',
+    url: 'https://www.exponent.ai/',
+    img: '/supporters/exponent.png',
+    extraClasses: '',
   },
 ]
 
