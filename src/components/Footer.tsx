@@ -59,6 +59,13 @@ const coorganizers = [
     img: '/organizers/pagoda.png',
     extraClasses: '',
   },
+  {
+    id: 'ethvietnam',
+    name: 'ETHVietnam',
+    url: 'https://www.eth-vietnam.com/',
+    img: '/organizers/ethvietnam.png',
+    extraClasses: '',
+  },
 ]
 
 const supporters = [
@@ -90,6 +97,34 @@ const supporters = [
     url: 'https://x.com/THBUIDL',
     img: '/supporters/thbuidl.png',
     extraClasses: 'px-4',
+  },
+  {
+    id: 'apubcc',
+    name: 'APUBCC',
+    url: 'https://apubcc.org',
+    img: '/supporters/apubcc.png',
+    extraClasses: '',
+  },
+  {
+    id: 'sunway',
+    name: 'Sunway Blockchain Club',
+    url: 'https://sunwayblockchain.com',
+    img: '/supporters/sunway.png',
+    extraClasses: '',
+  },
+  {
+    id: 'web3village',
+    name: 'Web3 Village',
+    url: 'https://www.web3villages.com/',
+    img: '/supporters/web3village.png',
+    extraClasses: '',
+  },
+  {
+    id: 'collegedao',
+    name: 'College DAO',
+    url: 'https://collegedao.io/',
+    img: '/supporters/collegedao.png',
+    extraClasses: '',
   },
   // Media,
   {
@@ -133,7 +168,14 @@ const supporters = [
     name: 'Smallworld',
     url: 'https://smallworldventure.com/',
     img: '/supporters/smallworld.png',
-    extraClasses: 'pb-6 -mt-4 md:mt-0',
+    extraClasses: '',
+  },
+  {
+    id: 'exponent',
+    name: 'Exponent AI',
+    url: 'https://www.exponent.ai/',
+    img: '/supporters/exponent.png',
+    extraClasses: '',
   },
 ]
 
@@ -148,7 +190,7 @@ const Footer: React.FC = () => {
           <div className="md:flex md:flex-wrap px-8 md:self-center md:justify-around md:items-center">
             {organizers.map((organizer, index) => (
               <div
-                className={`md:inline-block max-w-64 mb-8 text-center ${organizer.extraClasses}`}
+                className={`md:inline-block md:max-w-64 mb-8 mx-auto text-center ${organizer.extraClasses}`}
                 key={index}
               >
                 <a target="_blank" href={organizer.url}>
@@ -161,13 +203,13 @@ const Footer: React.FC = () => {
               </div>
             ))}
           </div>
-          <div className="md:flex md:flex-wrap md:px-48 px-8 md:self-center md:justify-around md:items-center">
+          <div className="md:flex md:flex-wrap px-8 md:self-center md:justify-around md:items-center">
             {coorganizers.map((coorganizer, index) => (
               <div
-                className={`inline-block w-48 mb-8 text-center ${coorganizer.extraClasses}`}
+                className={`md:inline-block md:max-w-48 mb-8 mx-auto text-center ${coorganizer.extraClasses}`}
                 key={index}
               >
-                <a href={coorganizer.url}>
+                <a target="_blank" href={coorganizer.url}>
                   <img
                     className="max-h-32 inline-block"
                     src={coorganizer.img}
@@ -185,7 +227,7 @@ const Footer: React.FC = () => {
           <div className="md:flex md:flex-wrap self-center justify-around items-center md:px-24">
             {supporters.map((supporter, index) => (
               <div
-                className={`md:inline-block md:px-8 text-center md:basis-1/4 ${supporter.extraClasses}`}
+                className={`md:inline-block md:px-8 md:py-4 text-center md:basis-1/4 ${supporter.extraClasses}`}
                 key={index}
               >
                 <a href={supporter.url || ''}>

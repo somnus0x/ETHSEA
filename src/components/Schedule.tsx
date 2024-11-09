@@ -24,33 +24,34 @@ const schedules = [
       },
       {
         time: '10:00 to 10:20',
-        speaker: 'Unnawut',
-        description: 'Web3 Landscape in SEA',
+        speaker: 'Unnawut Leepaisalsuwanna - Devcon Team',
+        description:
+          'Ethereum in Southeast Asia: The Past, The Presence, The Future',
       },
       {
         time: '10:20 to 10:40',
-        speaker: 'Mario Havel',
-        description: 'ELI5: L1 protocol development',
+        speaker: 'Mario Havel - Protocol Support, Ethereum Foundation',
+        description: 'Intro to Ethereum Core Protocol Development',
       },
       {
         time: '10:40 to 11:00',
-        speaker: 'Hubert, L2BEAT',
-        description: 'ELI5: Layer 2',
+        speaker: 'Hubert Kotliński - L2BEAT',
+        description: 'A Very Quick Overview of L2s',
       },
       {
         time: '11:00 to 11:20',
-        speaker: 'Kim Trong Nguyen, Kyber',
-        description: 'ELI5: DeFi',
+        speaker: 'Kim Trong Nguyen - Head of Research, Kyber Network',
+        description: 'DeFi: Then and Now',
       },
       {
         time: '11:20 to 11:40',
-        speaker: 'Lysa JY Tan',
-        description: 'ELI5 CryptoEconomics',
+        speaker: 'Lisa Tan - Founder & CEO, Economics Design',
+        description: "Absolute Beginner's Guide to Token Economics",
       },
       {
         time: '11:40 to 12:00',
-        speaker: 'Aya Miyaguchi',
-        description: 'Fireside chat with Aya',
+        speaker: 'Aya Miyaguchi - Executive Director, Ethereum Foundation',
+        description: 'Fireside Chat with Aya',
       },
       {
         time: '12:00 to 13:00',
@@ -59,33 +60,37 @@ const schedules = [
       },
       {
         time: '13:00 to 13:20',
-        speaker: 'DEPA',
-        description: 'The importance of blockchain for the Thailand ecosystem',
+        speaker:
+          'Dr. Chinawut Chinaprayoon - Executive Vice President of the Digital Economy Promotion Agency',
+        description: 'The Importance of Blockchain for the Thailand Ecosystem',
       },
       {
         time: '13:20 to 13:40',
-        speaker: 'Jern PSE',
-        description: 'ELI5 ProgCrpto',
+        speaker:
+          'Teeramet (Jern) Kunpittaya - Research Engineer at Privacy & Scaling Exploration, Ethereum Foundation',
+        description: 'WTF is Programmable Cryptography',
       },
       {
         time: '13:40 to 14:00',
-        speaker: 'Topology',
-        description: 'Game/AW',
+        speaker:
+          'Justin Gilbert (Co-founder of 0xPARC & CEO of Lattice) & Hilmar Petursson (CEO CCP Games)',
+        description:
+          'EVE Frontier - challenges, lessons and future of building an autonomous world on Ethereum',
       },
       {
         time: '14:00 to 14:20',
-        speaker: 'Guo',
-        description: 'Decentralized social media',
+        speaker: 'Guo Liu - Matters Lab',
+        description: 'The Online Content We Consume and How to Decetralize Them',
       },
       {
         time: '14:20 to 14:40',
-        speaker: 'Varit Curia',
-        description: 'ELI5: DAO',
+        speaker: 'Varit Curia - CEO & Co-Founder, Curia Lab',
+        description: 'DAO Landscape & Opportunities in 2025',
       },
       {
         time: '14:40 to 15:00',
-        speaker: 'Cathie',
-        description: 'ELI5: Crypto x AI',
+        speaker: 'Cathie So - Chief Scientist, ORA',
+        description: 'ELI5 Crypto x AI',
       },
       {
         time: '15:00 to 15:20',
@@ -94,27 +99,31 @@ const schedules = [
       },
       {
         time: '15:20 to 15:40',
-        speaker: 'Irene Umar',
+        speaker:
+          'Irene Umar - Vice Minister of Creative Economy, Republic of Indonesia',
         description:
+<<<<<<< HEAD
           "Empowering Indonesia's Creative Economy Through Blockchain Innovation",
+=======
+          "Empowering Indonesia's Creative Economy Through Blockchain Innovation.",
+>>>>>>> 7a9255b3f52429fb34915f90ec08445c23460667
       },
       {
         time: '15:40 to 16:00',
-        speaker: 'Loi Luu',
-        description:
-          'Why ethereum is more relevant today than ever (and will be for a long time)',
+        speaker: 'Loi Luu - Founder of Caliber & Kyber',
+        description: 'Why Ethereum is More Relevant Today (and in the next decades)',
       },
       {
         time: '16:00 to 16:40',
         speaker:
-          "MynaWallet (Japan's gov ID), Anon-Aadhaar (India), and Proof of Passport)",
-        description: 'National IDs in the Ethereum ecosystem',
+          'Yanis (Anon Aadhaar), Hiroyuki Tachibana (Co-founder CEO  / MynaWallet), Michael Elliot (ZKpassport), Florent Tavernier (OpenPassport), nico (Kyoto University, OpenPassport)',
+        description: 'National IDs in the Ethereum Ecosystem',
       },
       {
         time: '16:40 to 17:00',
-        speaker: 'Vitalik Buterin',
+        speaker: 'Vitalik Buterin - Co-founder, Ethereum',
         description:
-          'Southeast Asia and its importance to the global Ethereum ecosystem',
+          'Southeast Asia and Its Importance to the Global Ethereum Ecosystem',
       },
     ],
   },
@@ -130,28 +139,30 @@ const schedules = [
       },
       {
         time: '10:00 to 10:20',
-        speaker: 'TY',
-        description: 'Exploring Ethereum and L2s with a block explorer',
+        speaker: 'TY - Etherscan',
+        description: 'Exploring Ethereum and L2s with a Block Explorer',
       },
       {
         time: '10:20 to 10:40',
-        speaker: 'Tin',
+        speaker:
+          'Christine (0xDanki) Erispe - Opensource Developer of The WAIFU Project',
         description: 'Crypto UX and Bridging User Mental Models to Developers',
       },
       {
         time: '10:40 to 11:00',
-        speaker: 'Sheng Yong Kim',
+        speaker: 'Sheng Yong Kim - CoinGecko',
         description: 'Building Products in Web3 Data Space',
       },
       {
         time: '11:00 to 11:20',
-        speaker: 'Billy & Wit',
+        speaker:
+          'Jarukit (Wit) Jintanasathirakul & Ratchanon (Billy) Tarawan - Catalyzt Tech',
         description: 'Building Web3 as a Student: Insights, Challenges, and Growth',
       },
       {
         time: '11:20 to 11:40',
-        speaker: 'Marco Manoppo',
-        description: 'Building blocks to succeed as web3 founders',
+        speaker: 'Marco Manoppo - Primitive Ventures',
+        description: 'Building Blocks to Succeed as Web3 Founders',
       },
       {
         time: '12:00 to 13:00',
@@ -160,26 +171,23 @@ const schedules = [
       },
       {
         time: '13:00 to 13:20',
-        speaker: 'Mike Phul',
+        speaker: 'Mike Phulsuksombati - Founder & Staff Software Engineer',
         description: 'Journey as a Web3 Founder - From Founding to Exit',
       },
       {
-        time: '13:20 to 13:40',
-        speaker: 'Rati, Chun, Arin',
-        description: 'Local Dev Panel',
-      },
-      {
-        time: '13:40 to 14:00',
-        speaker: 'Rati, Chun, Arin',
-        description: 'Local Dev Panel',
+        time: '13:20 to 14:00',
+        speaker: 'Rati Montreewat, Chun Rapeepat, Arin Trongsantipong',
+        description:
+          'Tales of 3 Developers: The Independent Developer, The Indie Hacker, and The Product Developer',
       },
       {
         time: '14:00 to 14:20',
-        speaker: 'Vectorized',
-        description: 'Starting a dev journey into Ethereum',
+        speaker: 'Vectorized - Solady Maintainer',
+        description: 'Starting a Dev Journey into Ethereum',
       },
       {
         time: '14:20 to 14:40',
+<<<<<<< HEAD
         speaker: 'Nutchanon Ploypray',
         description:
           'From Blocks to Insights: Practical Data Insights for Ethereum Analysts ',
@@ -188,6 +196,15 @@ const schedules = [
         time: '14:40 to 15:00',
         speaker: 'Chee Chyuan',
         description: 'Journey to Researcher',
+=======
+        speaker: 'Nutchanon Ploypray - Tech Lead at Cleverse',
+        description: '101 for Data Analyst',
+      },
+      {
+        time: '14:40 to 15:00',
+        speaker: 'Chee Chyuan - Researcher at Nethermind',
+        description: 'From Curiosity to Web3-ish Career',
+>>>>>>> 7a9255b3f52429fb34915f90ec08445c23460667
       },
       {
         time: '15:00 to 15:20',
@@ -196,13 +213,26 @@ const schedules = [
       },
       {
         time: '15:20 to 15:40',
-        speaker: 'Muhammad Amirul Ashraf',
-        description: 'Optimizing execution client sync time',
+        speaker: 'Muhammad Amirul Ashraf - Ethereum Core Dev at Nethermind',
+        description: 'Optimizing Execution Client Sync Time',
       },
       {
         time: '15:40 to 16:00',
-        speaker: 'Harith Kamarul',
-        description: 'Learnings on organising an Ethereum Community',
+        speaker: 'Harith Kamarul - Team Mascot, ETHKL',
+        description: 'Learnings on Organising an Ethereum Community',
+      },
+      {
+        time: '16:00 to 16:20',
+        speaker:
+          'Setiaji - Chief of Digital Transformation Office at Ministry of Health of the Republic of Indonesia',
+        description:
+          'How SatuSehat App, the Official Healthcare App in Indonesia, is Experimenting Blockchain for Future Patient Data',
+      },
+      {
+        time: '16:20 to 16:40',
+        speaker: 'Gesa Schneider - Ethereum Scholar',
+        description:
+          'Leveraging Ethereum for Sustainable Solutions in Southeast Asia',
       },
     ],
   },
@@ -213,7 +243,7 @@ const schedules = [
     schedule: [
       {
         time: '13:00 to 16:00',
-        speaker: '',
+        speaker: 'Nattapon (Tot) Nimakul & Sitthavee (Son) Teerakulchon',
         description: 'Web3 Developer Onboarding Workshop',
       },
     ],
