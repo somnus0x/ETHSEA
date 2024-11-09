@@ -349,6 +349,29 @@ const speakers = [
     color: 'text-[#fbcfe8]',
     underlineColor: 'border-[#fbcfe8]',
   },
+  {
+    name: 'Irene Umar',
+    menuName: 'Irene Umar',
+    title: 'Vice Minister of Creative Economy, Republic of Indonesia',
+    social: '',
+    description:
+      "Irene Umar is a visionary leader in Indonesia's creative economy sector, currently serving as the Vice Minister of Creative Economy. With a robust background in finance and technology, she has been instrumental in integrating blockchain solutions to enhance the creative industries. Prior to her ministerial role, Irene co-founded W3GG, a platform dedicated to empowering gamers, developers, and investors in the blockchain gaming ecosystem. She also served as Managing Partner at Discovery Nusantara Capital (DNC), focusing on investments in the creative economy, particularly in gaming and technology sectors. Irene's extensive experience includes a tenure as Associate Director at Standard Chartered Bank, where she managed significant projects across the UAE, India, and Singapore. Her academic credentials include a Bachelor of Arts in Economics from President University, where she graduated Magna Cum Laude. In her current capacity, Irene is committed to leveraging blockchain technology to drive innovation and growth within Indonesia's creative economy",
+    image: '/speakers/irene.jpeg',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
+  {
+    name: 'Setiaji',
+    menuName: 'Setiaji',
+    title:
+      'Chief of Digital Transformation Office (DTO) and Expert Staff to the Minister of Health for Health Technology, Ministry of Health, Republic of Indonesia.',
+    social: '',
+    description:
+      "Setiaji is a distinguished leader in digital transformation within Indonesia's public sector. As the Chief of the Digital Transformation Office and Expert Staff to the Minister of Health for Health Technology at the Ministry of Health, he spearheads initiatives aimed at integrating and enhancing the nation's healthcare services through technological innovation. With over eight years of experience in smart city development and government digital transformation, Setiaji has been instrumental in projects like SATUSEHAT, a platform designed to unify health data across the country.",
+    image: '/speakers/Setiaji.png',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
 ]
 const Speakers: React.FC = () => {
   const [speakerIndex, setSpeakerIndex] = useState(0)

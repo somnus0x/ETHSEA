@@ -96,7 +96,7 @@ const schedules = [
         time: '15:20 to 15:40',
         speaker: 'Irene Umar',
         description:
-          'Potential of future Indonesia creative economy landscape and it’s potential using Web3 technology',
+          "Empowering Indonesia's Creative Economy Through Blockchain Innovation",
       },
       {
         time: '15:40 to 16:00',
@@ -181,12 +181,13 @@ const schedules = [
       {
         time: '14:20 to 14:40',
         speaker: 'Nutchanon Ploypray',
-        description: '101 for data analyst',
+        description:
+          'From Blocks to Insights: Practical Data Insights for Ethereum Analysts ',
       },
       {
         time: '14:40 to 15:00',
         speaker: 'Chee Chyuan',
-        description: 'ZKP Research',
+        description: 'Journey to Researcher',
       },
       {
         time: '15:00 to 15:20',
