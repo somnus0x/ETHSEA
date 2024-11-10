@@ -448,6 +448,17 @@ Previously serving as CCP’s CTO from 2000-2005, Hilmar has been honored across
     color: 'text-[#fbcfe8]',
     underlineColor: 'border-[#fbcfe8]',
   },
+  {
+    name: 'Juan David',
+    menuName: 'Juan David',
+    title: 'Core team member, ETH Kipu',
+    social: '',
+    description:
+      'Core team member at ETH Kipu, contributor to BuidlGuidl and member Ethereum Bogotá 🇨🇴. Dedicated to strengthening the Ethereum ecosystem through educational initiatives.',
+    image: '/speakers/juanda.jpeg',
+    color: 'text-[#fbcfe8]',
+    underlineColor: 'border-[#fbcfe8]',
+  },
 ]
 const Speakers: React.FC = () => {
   const [speakerIndex, setSpeakerIndex] = useState(0)
