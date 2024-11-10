@@ -190,7 +190,7 @@ const schedules = [
       {
         time: '14:40 to 15:00',
         speaker: 'Chee Chyuan',
-        description: 'Journey to Researcher',
+        description: 'Curiosity to Web3-ish Career',
       },
       {
         time: '15:00 to 15:20',
