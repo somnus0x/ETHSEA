@@ -93,17 +93,17 @@ const schedules = [
         description: 'ELI5 Crypto x AI',
       },
       {
-        time: '15:00 to 15:20',
+        time: '15:00 to 15:40',
         speaker: '',
         description: 'Break',
       },
-      {
-        time: '15:20 to 15:40',
-        speaker:
-          'Irene Umar - Vice Minister of Creative Economy, Republic of Indonesia',
-        description:
-          "Empowering Indonesia's Creative Economy Through Blockchain Innovation",
-      },
+      // {
+      //   time: '15:20 to 15:40',
+      //   speaker:
+      //     'Irene Umar - Vice Minister of Creative Economy, Republic of Indonesia',
+      //   description:
+      //     "Empowering Indonesia's Creative Economy Through Blockchain Innovation",
+      // },
       {
         time: '15:40 to 16:00',
         speaker: 'Loi Luu - Founder of Caliber & Kyber',
@@ -207,15 +207,15 @@ const schedules = [
         speaker: 'Harith Kamarul - Team Mascot, ETHKL',
         description: 'Learnings on Organising an Ethereum Community',
       },
+      // {
+      //   time: '16:00 to 16:20',
+      //   speaker:
+      //     'Setiaji - Chief of Digital Transformation Office at Ministry of Health of the Republic of Indonesia',
+      //   description:
+      //     'How SatuSehat App, the Official Healthcare App in Indonesia, is Experimenting Blockchain for Future Patient Data',
+      // },
       {
         time: '16:00 to 16:20',
-        speaker:
-          'Setiaji - Chief of Digital Transformation Office at Ministry of Health of the Republic of Indonesia',
-        description:
-          'How SatuSehat App, the Official Healthcare App in Indonesia, is Experimenting Blockchain for Future Patient Data',
-      },
-      {
-        time: '16:20 to 16:40',
         speaker: 'Gesa Schneider - Ethereum Scholar',
         description:
           'Leveraging Ethereum for Sustainable Solutions in Southeast Asia',
