@@ -93,17 +93,15 @@ const schedules = [
         description: 'ELI5 Crypto x AI',
       },
       {
-        time: '15:00 to 15:40',
+        time: '15:00 to 15:20',
         speaker: '',
         description: 'Break',
       },
-      // {
-      //   time: '15:20 to 15:40',
-      //   speaker:
-      //     'Irene Umar - Vice Minister of Creative Economy, Republic of Indonesia',
-      //   description:
-      //     "Empowering Indonesia's Creative Economy Through Blockchain Innovation",
-      // },
+      {
+        time: '15:20 to 15:40',
+        speaker: 'Harith Kamarul - Team Mascot, ETHKL',
+        description: 'Learnings on Organising an Ethereum Community',
+      },
       {
         time: '15:40 to 16:00',
         speaker: 'Loi Luu - Founder of Caliber & Kyber',
@@ -204,8 +202,8 @@ const schedules = [
       },
       {
         time: '15:40 to 16:00',
-        speaker: 'Harith Kamarul - Team Mascot, ETHKL',
-        description: 'Learnings on Organising an Ethereum Community',
+        speaker: 'Harith Kamarul, QZ, Ohm',
+        description: 'Community.ETH',
       },
       // {
       //   time: '16:00 to 16:20',
