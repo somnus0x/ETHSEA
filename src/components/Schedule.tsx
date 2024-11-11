@@ -214,12 +214,12 @@ const schedules = [
       //   description:
       //     'How SatuSehat App, the Official Healthcare App in Indonesia, is Experimenting Blockchain for Future Patient Data',
       // },
-      {
-        time: '16:00 to 16:20',
-        speaker: 'Gesa Schneider - Ethereum Scholar',
-        description:
-          'Leveraging Ethereum for Sustainable Solutions in Southeast Asia',
-      },
+      // {
+      //   time: '16:00 to 16:20',
+      //   speaker: 'Gesa Schneider - Ethereum Scholar',
+      //   description:
+      //     'Leveraging Ethereum for Sustainable Solutions in Southeast Asia',
+      // },
     ],
   },
   {
